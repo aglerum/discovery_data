@@ -1,12 +1,13 @@
-# CSV Files isbn_201802_test.csv  isbn_not_match_test.csv
+# CSV Files isbn_20180.csv  isbn_not_match.csv
 # Attribution: https://www.daniweb.com/programming/software-development/threads/515345/python-compare-two-csv-files-output-differences-additions
 
 # Read in the original and new file
-# orig = open('isbn_not_match_test.csv', 'r')
-# new = open('isbn_201802_test.csv', 'r')
-#orig = open('isbn_201712.csv', 'r')
-#new = open('isbn_201802.csv', 'r')
 
+# Result: in_2018_not-in-2017.csv
+# orig = open('isbn_201712.csv', 'r')
+# new = open('isbn_201802.csv', 'r')
+
+# Result: in_2017_not-in-2018.csv
 orig = open('isbn_201802.csv', 'r')
 new = open('isbn_201712.csv', 'r')
 
