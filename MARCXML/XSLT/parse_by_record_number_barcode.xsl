@@ -3,6 +3,7 @@
     xmlns:marc="http://www.loc.gov/MARC21/slim" exclude-result-prefixes="marc xs" version="2.0">
 
     <!-- Last Updated: February 13, 2018 -->
+    <!-- For processing Koha records provided by the London Study Center. -->
     
 <!--    <marc:datafield tag="049" ind1=" " ind2=" ">
         <marc:subfield code="a">FDAA-LNBKS</marc:subfield>

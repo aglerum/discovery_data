@@ -3,7 +3,7 @@
     xmlns:marc="http://www.loc.gov/MARC21/slim" exclude-result-prefixes="marc xs" version="2.0">
     
     <!-- Last updated: March 10, 2018 -->
-    <!-- For Koha records provided by the London Study Center. -->
+    <!-- For processing Koha records provided by the London Study Center. -->
 
     <xsl:output encoding="UTF-8" method="xml" indent="yes"/>
     <xsl:strip-space elements="*"/>
