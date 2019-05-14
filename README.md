@@ -1,6 +1,6 @@
 # discovery_data
 Repository for FSU Libraries Discovery Data Services projects.
 
-See the wiki for GREL snippets and other resources for working with OpenRefine.
+See the wiki for GREL snippets and other resources for working with OpenRefine as well as a scratch pad for SQL queries.
 
-_Last Updated: February 24, 2018._
+_Last Updated: May 14, 2019._
