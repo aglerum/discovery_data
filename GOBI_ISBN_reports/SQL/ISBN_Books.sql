@@ -21,8 +21,7 @@ AND (sb.al_items.ips != 'WD'
     OR sb.al_items.ips != 'CO' 
     OR sb.al_items.ips != 'CA' 
     OR sb.al_items.ips != 'AC')
-AND (
-    OR sb.al_items.open_date LIKE '%OCT-18' 
+AND (sb.al_items.open_date LIKE '%OCT-18' 
     OR sb.al_items.open_date LIKE '%NOV-18' 
     OR sb.al_items.open_date LIKE '%DEC-18')
 AND sb.al_bib_fmt.bib_fmt = 'BK';
