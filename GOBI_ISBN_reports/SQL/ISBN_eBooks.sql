@@ -17,7 +17,7 @@ AND (sb.al_items.ips != 'WD'
     OR sb.al_items.ips != 'CO' 
     OR sb.al_items.ips != 'CA' 
     OR sb.al_items.ips != 'AC'
-    OR sb.al_items.ips != 'OR'))
+    OR sb.al_items.ips != 'OR')
 AND (sb.al_items.open_date LIKE '%AUG-18' 
     OR sb.al_items.open_date LIKE '%SEP-18' 
     OR sb.al_items.open_date LIKE '%OCT-18' 
