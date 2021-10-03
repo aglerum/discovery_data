@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QGOBI_QC.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="GOBI_QC.xpr">
+        <folder path="DSV/"/>
+        <folder path="Excel/"/>
+        <folder path="historical/"/>
+        <folder path="XML/"/>
+        <folder path="XSL/"/>
+    </projectTree>
+</project>

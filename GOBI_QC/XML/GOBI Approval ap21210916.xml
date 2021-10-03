@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+    <record>
+        <leader>01429cam a2200313Ki 4500</leader>
+        <controlfield tag="001">99383258189806576</controlfield>
+        <controlfield tag="005">20210917155211.0</controlfield>
+        <controlfield tag="008">200620s2021 pl 000 0 eng d</controlfield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9788395771354</subfield>
+            <subfield code="q">hardcover</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">8395771355</subfield>
+            <subfield code="q">hardcover</subfield>
+        </datafield>
+        <datafield tag="024" ind1="8" ind2=" ">
+            <subfield code="a">16811856</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">40030479908</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)1158579806</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)on1158579806</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">YDX</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="e">rda</subfield>
+            <subfield code="c">YDX</subfield>
+            <subfield code="d">YDX</subfield>
+        </datafield>
+        <datafield tag="049" ind1=" " ind2=" ">
+            <subfield code="a">FSSG-APP-EOCR</subfield>
+            <subfield code="l">31254802306601</subfield>
+        </datafield>
+        <datafield tag="050" ind1=" " ind2="4">
+            <subfield code="a">HD75.5</subfield>
+            <subfield code="b">.R54 2021</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2="4">
+            <subfield code="a">338.90015118</subfield>
+            <subfield code="2">23</subfield>
+        </datafield>
+        <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Ridley, Dennis,</subfield>
+            <subfield code="e">author.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Wealth :</subfield>
+            <subfield code="b">explained by capitalism democracy rule of law : general theory of economics, CDR supply side scientific growth law
+                unveiled from confusion to clarity /</subfield>
+            <subfield code="c">Dennis Ridley.</subfield>
+        </datafield>
+        <datafield tag="246" ind1="3" ind2="4">
+            <subfield code="a">Mystery of wealth :</subfield>
+            <subfield code="b">capitalism, democracy, rule of law : why 10% are rich while 90% are poor : high CDR countries are where ideas go to
+                fly, low CDR countries are where ideas go to die : from confusion to clarity : wealth &amp; poverty, demystified, econometrically :
+                entrepreneurship</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">[Warsaw, Poland?] :</subfield>
+            <subfield code="b">[Sciendo?],</subfield>
+            <subfield code="c">[2021]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">vi, 339 pages ;</subfield>
+            <subfield code="c">29 cm</subfield>
+        </datafield>
+        <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Place of publication from publisher's website.</subfield>
+        </datafield>
+        <datafield tag="590" ind1=" " ind2=" ">
+            <subfield code="a">Florida State University faculty publication</subfield>
+            <subfield code="9">local</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Economic development</subfield>
+            <subfield code="x">Mathematical models.</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>02334cam a2200397Ii 4500</leader>
+        <controlfield tag="001">99383258189906576</controlfield>
+        <controlfield tag="005">20210917160335.0</controlfield>
+        <controlfield tag="008">210202s2021 enk b 000 0 eng d</controlfield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">1108793800</subfield>
+            <subfield code="q">paperback</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9781108793803</subfield>
+            <subfield code="q">paperback</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="z">9781108881401 (PDF ebook)</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="z">9781108879026 (PDF ebook)</subfield>
+        </datafield>
+        <datafield tag="024" ind1="8" ind2=" ">
+            <subfield code="a">17239262</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">40030716786</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)1235871587</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)on1235871587</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">YDX</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="e">rda</subfield>
+            <subfield code="c">YDX</subfield>
+            <subfield code="d">UKMGB</subfield>
+            <subfield code="d">OCLCO</subfield>
+            <subfield code="d">OCLCF</subfield>
+            <subfield code="d">YDX</subfield>
+        </datafield>
+        <datafield tag="049" ind1=" " ind2=" ">
+            <subfield code="a">FSSG-APP-EOCR</subfield>
+            <subfield code="l">31254802306650</subfield>
+        </datafield>
+        <datafield tag="050" ind1=" " ind2="4">
+            <subfield code="a">HM631</subfield>
+            <subfield code="b">.O26 2021</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2="4">
+            <subfield code="a">303.4</subfield>
+            <subfield code="2">23</subfield>
+        </datafield>
+        <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">O'Connell, Jeffrey,</subfield>
+            <subfield code="e">author.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Social Darwinism /</subfield>
+            <subfield code="c">Jeffrey O'Connell, Michael Ruse.</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">Cambridge, United Kingdom ;</subfield>
+            <subfield code="a">New York, NY, USA :</subfield>
+            <subfield code="b">Cambridge University Press,</subfield>
+            <subfield code="c">2021.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">71 pages ;</subfield>
+            <subfield code="c">23 cm.</subfield>
+        </datafield>
+        <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="a">text</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="a">volume</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Elements in the philosophy of biology</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="520" ind1=" " ind2=" ">
+            <subfield code="a">This Element is a philosophical history of Social Darwinism. It begins by discussing the meaning of the term, moving
+                then to its origins, paying particular attention to whether it is Charles Darwin or Herbert Spencer who is the true father of the
+                idea. It gives an exposition of early thinking on the subject, covering Darwin and Spencer themselves and then on to Social Darwinism
+                as found in American thought, with special emphasis on Andrew Carnegie, and Germany with special emphasis on Friedrich von Bernhardi.
+                Attention is also paid to outliers, notably the Englishman Alfred Russel Wallace, the Russian Peter Kropotkin, and the German
+                Friedrich Nietzsche. From here we move into the twentieth century looking at Adolf Hitler -- hardly a regular Social Darwinian given
+                he did not believe in evolution -- and in the Anglophone world, Julian Huxley and Edward O. Wilson, who reflected the concerns of
+                their society.--publisher's website.</subfield>
+        </datafield>
+        <datafield tag="590" ind1=" " ind2=" ">
+            <subfield code="a">Florida State University faculty publication</subfield>
+            <subfield code="9">local</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Social Darwinism.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Social Darwinism.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01122237</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Ruse, Michael,</subfield>
+            <subfield code="e">author.</subfield>
+        </datafield>
+        <datafield tag="776" ind1="0" ind2="8">
+            <subfield code="i">ebook version :</subfield>
+            <subfield code="z">9781108881401</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">Cambridge elements.</subfield>
+            <subfield code="p">Elements in the philosophy of biology.</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>05817cam a2200577 i 4500</leader>
+        <controlfield tag="001">99383258190006576</controlfield>
+        <controlfield tag="005">20210917160210.0</controlfield>
+        <controlfield tag="008">210426s2021 nyua b 001 0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 2021018501</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9781536195385</subfield>
+            <subfield code="q">(paperback)</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">1536195383</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="z">9781536196160</subfield>
+            <subfield code="q">(adobe pdf)</subfield>
+        </datafield>
+        <datafield tag="024" ind1="8" ind2=" ">
+            <subfield code="a">17415878</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">40030716790</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)1249703369</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)on1249703369</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="e">rda</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">YDX</subfield>
+            <subfield code="d">OCLCF</subfield>
+            <subfield code="d">DLC</subfield>
+        </datafield>
+        <datafield tag="042" ind1=" " ind2=" ">
+            <subfield code="a">pcc</subfield>
+        </datafield>
+        <datafield tag="043" ind1=" " ind2=" ">
+            <subfield code="a">n-us---</subfield>
+            <subfield code="a">e-uk---</subfield>
+        </datafield>
+        <datafield tag="049" ind1=" " ind2=" ">
+            <subfield code="a">FSSG-APP-EOCR</subfield>
+            <subfield code="l">31254802306593</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">E912</subfield>
+            <subfield code="b">.R36 2021</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2="0">
+            <subfield code="a">363.3250973</subfield>
+            <subfield code="2">23</subfield>
+        </datafield>
+        <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Ramswell, Prebble Q.,</subfield>
+            <subfield code="e">author.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="4">
+            <subfield code="a">The rise of domestic terrorism and decline of American democracy :</subfield>
+            <subfield code="b">how Brexit and the Trump presidency influenced populist empowerment and the intersection of rights, division, derision,
+                decisions /</subfield>
+            <subfield code="c">Prebble Q. Ramswell, PhD.</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">New York :</subfield>
+            <subfield code="b">Nova Science Publishers,</subfield>
+            <subfield code="c">[2021]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">vii, 245 pages :</subfield>
+            <subfield code="b">illustrations ;</subfield>
+            <subfield code="c">23 cm.</subfield>
+        </datafield>
+        <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">American political, economic, and security issues</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references (pages 207-235) and index.</subfield>
+        </datafield>
+        <datafield tag="505" ind1="0" ind2=" ">
+            <subfield code="a">The evolution of democracy -- Chapter 1: introduction -- Chapter 2: the United Kingdom: populist consumption of the
+                mighty blighty -- Background and precipitating events -- Political pressure cooker -- Brexit: the vote and the results -- Chapter 3:
+                politics in the West -- Australia -- Austria -- France -- Germany -- Hungary -- Italy -- Netherlands -- New Zealand -- Poland --
+                Slovakia -- Spain -- Turkey -- Chapter 4: the political statein the rest of the world -- Latin America: Chile and Venezuela -- Middle
+                East: Egypt and Kuwait -- Southeast Asia: Hong Kong, the Philippines, Republic of Korea -- Chapter 5: The United States: The birth of
+                ameriscepticism -- An ominous beginning -- The 2016 presidential campaign trail -- An atmosphere of contention the 2016 election --
+                The presidency of Donald Trump -- The domino effect -- Chapter 6: parallels and recurrent themes -- Brexit and the 45th presidency --
+                Time frame and split votes -- Rise of populism -- Permissiveness -- Power of the media -- Aspirations of unity create division --
+                Voting trend changes -- Global convergence -- Us vs them mentality -- Globalism a -- The age of instant access -- Power of the people
+                -- Nativism and nationalism -- The decline of American democracy -- Chapter 7: an American metamorphosis -- The Precursor:
+                euroscepticism -- The domestic threat -- Threat to the executive -- Executive influence -- The rise of far right and far left --
+                Summary -- Chapter 8: americscepticism grips America -- Democracy in decline -- Crucial factors -- The crossroads -- Chapter 9:
+                intersecting rights -- Competing interests -- Liberty leads to injustice -- Speech and expression -- Disparagement of leadership --
+                Lèse-Majesté -- The way forward -- Chapter 10: conclusion: division, derision, decisions.</subfield>
+        </datafield>
+        <datafield tag="520" ind1=" " ind2=" ">
+            <subfield code="a">"In 2016, both the United Kingdom and the United States found themselves embroiled in bitter battles, battles in which
+                the citizens themselves became their own worst enemies. The Brexit campaign and campaign for the 45th presidency precipitated a
+                rebirth of populism and nationalism, invigorating entire populations and inducing even the most casual observer into political action
+                and discourse. Yet, in both cases, what began as an endeavor to serve the needs of the citizenry morphed into a battlefield of
+                derision and division. Racism and xenophobia are no longer isolated issues affecting only small segments of society. Hate crimes, hate
+                speech, and overt racial discrimination are on the rise worldwide stemming from populist empowerment. Domestic terrorism has surged
+                across the West, particularly in the US. An atmosphere of hostility has emerged, pitting neighbor against neighbor, as it insidiously
+                sweeps through society, permanently altering our understanding of right and wrong and law and order. These issues are now at the
+                forefront of debate and have assumed a position on the frontline of political warfare worldwide. The parallels between the societal
+                changes in the UK and US are not merely provocative, they are disarming, particularly in light of the ensuing rise in far-right and
+                far-left terrorism across the West. In the US, this societal transformation and rise in domestic threat demonstrates a charged and
+                changed political atmosphere, as well as heralding the decline of American democracy"--</subfield>
+            <subfield code="c">Provided by publisher.</subfield>
+        </datafield>
+        <datafield tag="590" ind1=" " ind2=" ">
+            <subfield code="a">Florida State University faculty publication</subfield>
+            <subfield code="9">local</subfield>
+        </datafield>
+        <datafield tag="610" ind1="2" ind2="0">
+            <subfield code="a">European Union</subfield>
+            <subfield code="z">Great Britain.</subfield>
+        </datafield>
+        <datafield tag="610" ind1="2" ind2="7">
+            <subfield code="a">European Union.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst00916630</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="0">
+            <subfield code="a">United States</subfield>
+            <subfield code="x">Politics and government</subfield>
+            <subfield code="y">2017-2021.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Populism</subfield>
+            <subfield code="z">United States</subfield>
+            <subfield code="x">History</subfield>
+            <subfield code="y">21st century.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Populism</subfield>
+            <subfield code="z">Great Britain</subfield>
+            <subfield code="x">History</subfield>
+            <subfield code="y">21st century.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Democracy</subfield>
+            <subfield code="z">United States.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Democracy</subfield>
+            <subfield code="z">Great Britain.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Domestic terrorism</subfield>
+            <subfield code="x">Political aspects</subfield>
+            <subfield code="z">United States.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Domestic terrorism</subfield>
+            <subfield code="x">Political aspects</subfield>
+            <subfield code="z">Great Britain.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Democracy.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst00890077</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Politics and government.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01919741</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Populism.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01071658</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="7">
+            <subfield code="a">Great Britain.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01204623</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="7">
+            <subfield code="a">United States.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01204155</subfield>
+        </datafield>
+        <datafield tag="648" ind1=" " ind2="7">
+            <subfield code="a">2000-2099</subfield>
+            <subfield code="2">fast</subfield>
+        </datafield>
+        <datafield tag="655" ind1=" " ind2="7">
+            <subfield code="a">History.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01411628</subfield>
+        </datafield>
+        <datafield tag="776" ind1="0" ind2="8">
+            <subfield code="i">Online version:</subfield>
+            <subfield code="a">Ramswell, Prebble Q.</subfield>
+            <subfield code="t">Rise of domestic terrorism and decline of American democracy :</subfield>
+            <subfield code="d">New York : Nova Science Publishers, [2021]</subfield>
+            <subfield code="z">9781536196160</subfield>
+            <subfield code="w">(DLC) 2021018502</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>02392cam a2200409 i 4500</leader>
+        <controlfield tag="001">99383258190106576</controlfield>
+        <controlfield tag="005">20210917162949.0</controlfield>
+        <controlfield tag="008">210105t20212021enka b 001 0 eng d</controlfield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9781108820431</subfield>
+            <subfield code="q">paperback</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">1108820433</subfield>
+            <subfield code="q">paperback</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="z">9781108906739</subfield>
+            <subfield code="q">electronic book</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="z">9781108907057</subfield>
+            <subfield code="q">electronic book</subfield>
+        </datafield>
+        <datafield tag="024" ind1="8" ind2=" ">
+            <subfield code="a">17178635</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">40030716787</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)1228877003</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)on1228877003</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">YDX</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="e">rda</subfield>
+            <subfield code="c">YDX</subfield>
+            <subfield code="d">UKMGB</subfield>
+            <subfield code="d">OCLCO</subfield>
+            <subfield code="d">OCLCF</subfield>
+            <subfield code="d">TOH</subfield>
+            <subfield code="d">NZLEP</subfield>
+            <subfield code="d">YDX</subfield>
+            <subfield code="d">YDXIT</subfield>
+            <subfield code="d">BDX</subfield>
+            <subfield code="d">GSU</subfield>
+        </datafield>
+        <datafield tag="049" ind1=" " ind2=" ">
+            <subfield code="a">FSSG-APP-EOCR</subfield>
+            <subfield code="l">31254802306775</subfield>
+        </datafield>
+        <datafield tag="050" ind1=" " ind2="4">
+            <subfield code="a">BD450</subfield>
+            <subfield code="b">.R87 2021</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2="4">
+            <subfield code="a">128</subfield>
+            <subfield code="2">23</subfield>
+        </datafield>
+        <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Ruse, Michael,</subfield>
+            <subfield code="e">author.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="2">
+            <subfield code="a">A philosopher looks at human beings /</subfield>
+            <subfield code="c">Michael Ruse.</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">Cambridge, United Kingdom ;</subfield>
+            <subfield code="a">New York, NY :</subfield>
+            <subfield code="b">Cambridge University Press,</subfield>
+            <subfield code="c">2021.</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="4">
+            <subfield code="c">©2021</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xiii, 208 pages :</subfield>
+            <subfield code="b">illustrations ;</subfield>
+            <subfield code="c">20 cm.</subfield>
+        </datafield>
+        <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">A philosopher looks at</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references and index.</subfield>
+        </datafield>
+        <datafield tag="520" ind1=" " ind2=" ">
+            <subfield code="a">"Why do we think ourselves superior to all other animals? Are we right to think so? In this book, Michael Ruse explores
+                these questions in religion, science and philosophy. Some people think that the world is an organism - and that humans, as its highest
+                part, have a natural value (this view appeals particularly to people of religion). Others think that the world is a machine - and that
+                we therefore have responsibility for making our own value judgements (including judgements about ourselves). Ruse provides a
+                compelling analysis of these two rival views and the age-old conflict between them. In a wide-ranging and fascinating discussion, he
+                draws on Darwinism and existentialism to argue that only the view that the world is a machine does justice to our humanity. This new
+                series offers short and personal perspectives by expert thinkers on topics that we all encounter in our everyday lives" --</subfield>
+            <subfield code="c">Provided by publisher.</subfield>
+        </datafield>
+        <datafield tag="590" ind1=" " ind2=" ">
+            <subfield code="a">Florida State University faculty publication</subfield>
+            <subfield code="9">local</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Philosophical anthropology.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">PHILOSOPHY / General.</subfield>
+            <subfield code="2">bisacsh</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Philosophical anthropology.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01060766</subfield>
+        </datafield>
+        <datafield tag="776" ind1="0" ind2="8">
+            <subfield code="i">ebook version :</subfield>
+            <subfield code="z">9781108906739</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">Philosopher looks at.</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>01734cam a2200433Ki 4500</leader>
+        <controlfield tag="001">99383258190206576</controlfield>
+        <controlfield tag="005">20210917160738.0</controlfield>
+        <controlfield tag="008">200831t20202020nyu b 000 0 eng d</controlfield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">1599541696</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9781599541693</subfield>
+        </datafield>
+        <datafield tag="024" ind1="8" ind2=" ">
+            <subfield code="a">16928375</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">40030716791</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)1191714439</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)on1191714439</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">YDX</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="c">YDX</subfield>
+            <subfield code="d">BDX</subfield>
+            <subfield code="d">NEO</subfield>
+            <subfield code="d">OCLCO</subfield>
+            <subfield code="d">OCLCF</subfield>
+            <subfield code="d">ZWU</subfield>
+        </datafield>
+        <datafield tag="041" ind1="1" ind2=" ">
+            <subfield code="a">eng</subfield>
+            <subfield code="h">ita</subfield>
+        </datafield>
+        <datafield tag="043" ind1=" " ind2=" ">
+            <subfield code="a">n-us---</subfield>
+        </datafield>
+        <datafield tag="049" ind1=" " ind2=" ">
+            <subfield code="a">FSSG-APP-EOCR</subfield>
+            <subfield code="l">31254802306718</subfield>
+        </datafield>
+        <datafield tag="050" ind1=" " ind2="4">
+            <subfield code="a">E184.I8</subfield>
+            <subfield code="b">R841 2020</subfield>
+        </datafield>
+        <datafield tag="082" ind1=" " ind2="4">
+            <subfield code="a">973.0451</subfield>
+            <subfield code="b">R843it</subfield>
+        </datafield>
+        <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Ruggiero, Amerigo,</subfield>
+            <subfield code="d">1886-</subfield>
+            <subfield code="e">author.</subfield>
+        </datafield>
+        <datafield tag="240" ind1="1" ind2="0">
+            <subfield code="a">Italiani in America.</subfield>
+            <subfield code="l">English</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Italians in America /</subfield>
+            <subfield code="c">Amerigo Ruggiero ; edited and translated by Mark Pietralunga.</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">New York :</subfield>
+            <subfield code="b">Bordighera Press,</subfield>
+            <subfield code="c">[2020]</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="4">
+            <subfield code="c">©2020.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">197 pages ;</subfield>
+            <subfield code="c">23 cm.</subfield>
+        </datafield>
+        <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Crossings ;</subfield>
+            <subfield code="v">28</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="520" ind1=" " ind2=" ">
+            <subfield code="a">"Since its first publication in 1937, ITALIANS IN AMERICA has been recognized as one of the most important studies on
+                the Italian immigrant community in North America of its time"--Small Press Distribution.</subfield>
+        </datafield>
+        <datafield tag="590" ind1=" " ind2=" ">
+            <subfield code="a">Florida State University faculty publication</subfield>
+            <subfield code="9">local</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Italians</subfield>
+            <subfield code="z">United States.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Italians.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst00980750</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="7">
+            <subfield code="a">United States.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01204155</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Pietralunga, Mark,</subfield>
+            <subfield code="e">editor,</subfield>
+            <subfield code="e">translator.</subfield>
+        </datafield>
+        <datafield tag="765" ind1="0" ind2="8">
+            <subfield code="i">Translation of:</subfield>
+            <subfield code="a">Ruggiero, Amerigo.</subfield>
+            <subfield code="t">Italiani in America.</subfield>
+            <subfield code="d">Milano: Fratelli Treves editori, 1937</subfield>
+            <subfield code="w">(OCoLC) 20110341</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">Crossings (New York, N.Y.) ;</subfield>
+            <subfield code="v">28.</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>02469cam a2200409 i 4500</leader>
+        <controlfield tag="001">99383258190306576</controlfield>
+        <controlfield tag="005">20210919125239.0</controlfield>
+        <controlfield tag="008">201201t20212021lau 000 p eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 2020052697</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9780807175941</subfield>
+            <subfield code="q">hardcover</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0807175943</subfield>
+            <subfield code="q">hardcover</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9780807175644</subfield>
+            <subfield code="q">paperback</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0807175641</subfield>
+            <subfield code="q">paperback</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="z">9780807176016</subfield>
+            <subfield code="q">electronic book</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="z">9780807176023</subfield>
+            <subfield code="q">electronic publication</subfield>
+        </datafield>
+        <datafield tag="024" ind1="8" ind2=" ">
+            <subfield code="a">17355958</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">40030716782</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)1226073018</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)on1226073018</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="e">rda</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">OCLCO</subfield>
+            <subfield code="d">OCLCF</subfield>
+            <subfield code="d">BDX</subfield>
+            <subfield code="d">YDX</subfield>
+            <subfield code="d">UKMGB</subfield>
+            <subfield code="d">YDX</subfield>
+        </datafield>
+        <datafield tag="042" ind1=" " ind2=" ">
+            <subfield code="a">pcc</subfield>
+        </datafield>
+        <datafield tag="049" ind1=" " ind2=" ">
+            <subfield code="a">FSSG-APP-EOCR</subfield>
+            <subfield code="l">31254802306536</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">PS3561.I66</subfield>
+            <subfield code="b">H45 2021</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2="0">
+            <subfield code="a">811/.54</subfield>
+            <subfield code="2">23</subfield>
+        </datafield>
+        <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Kirby, David,</subfield>
+            <subfield code="d">1944-</subfield>
+            <subfield code="e">author.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Help me, information :</subfield>
+            <subfield code="b">poems /</subfield>
+            <subfield code="c">David Kirby.</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">Baton Rouge :</subfield>
+            <subfield code="b">Louisiana State University Press,</subfield>
+            <subfield code="c">[2021]</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="4">
+            <subfield code="c">©2021</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">ix, 119 pages ;</subfield>
+            <subfield code="c">23 cm</subfield>
+        </datafield>
+        <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="a">text</subfield>
+            <subfield code="b">txt</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="b">n</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="a">volume</subfield>
+            <subfield code="b">nc</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield tag="520" ind1=" " ind2=" ">
+            <subfield code="a">""Help Me, Information" is propelled by the speed and motion of the poems that define earlier acclaimed books by David
+                Kirby, poems which move the way the mind does on a good day, puddle-jumping from one topic to another and then coming in for a nice
+                soft landing. The poem might bounce once or twice on the tarmac, but the pilot promised he would get you to the terminal safely, and
+                he does. Colloquial in tone, balancing narrative breadth with masterfully precise details, Kirby's poems traverse subjects and
+                emotions with great insight and skill. "Help Me, Information" reveals the amplitude of his imagination and mercurial voice reaching
+                new heights in breadth of gesture, seriousness of subtext, and the resourcefulness of his comic instincts, as his poems display a
+                voracious curiosity about history, science, literature, and popular culture. Yet here he also reinvents himself with poems that recall
+                the directness of Jack Gilbert, the sweep of Allen Ginsberg, and the introspection of Frank O'Hara"--</subfield>
+            <subfield code="c">Provided by publisher.</subfield>
+        </datafield>
+        <datafield tag="590" ind1=" " ind2=" ">
+            <subfield code="a">Florida State University faculty publication</subfield>
+            <subfield code="9">local</subfield>
+        </datafield>
+        <datafield tag="655" ind1=" " ind2="7">
+            <subfield code="a">Poetry.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01423828</subfield>
+        </datafield>
+        <datafield tag="655" ind1=" " ind2="7">
+            <subfield code="a">Poetry.</subfield>
+            <subfield code="2">lcgft</subfield>
+        </datafield>
+        <datafield tag="776" ind1="0" ind2="8">
+            <subfield code="i">Online version:</subfield>
+            <subfield code="a">Kirby, David,</subfield>
+            <subfield code="t">Help me, information</subfield>
+            <subfield code="d">Baton Rouge : Louisiana State University Press, 2021.</subfield>
+            <subfield code="z">9780807176016</subfield>
+            <subfield code="w">(DLC) 2020052698</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>04183cam a2200445 i 4500</leader>
+        <controlfield tag="001">99383258190406576</controlfield>
+        <controlfield tag="005">20210919131730.0</controlfield>
+        <controlfield tag="008">201009s2020 mdua b 101 0 eng d</controlfield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9781793625731</subfield>
+            <subfield code="q">(cloth)</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">1793625735</subfield>
+            <subfield code="q">(cloth)</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="z">9781793625748</subfield>
+            <subfield code="q">(ePub ebook)</subfield>
+        </datafield>
+        <datafield tag="024" ind1="8" ind2=" ">
+            <subfield code="a">17003122</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">40030441889</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)1199330725</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)on1199330725</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">YDX</subfield>
+            <subfield code="b">eng</subfield>
+            <subfield code="e">rda</subfield>
+            <subfield code="c">YDX</subfield>
+            <subfield code="d">BDX</subfield>
+            <subfield code="d">UKMGB</subfield>
+            <subfield code="d">OCLCO</subfield>
+            <subfield code="d">OCLCF</subfield>
+            <subfield code="d">A7U</subfield>
+        </datafield>
+        <datafield tag="049" ind1=" " ind2=" ">
+            <subfield code="a">FSSG-APP-EOCR</subfield>
+            <subfield code="l">31254802306544</subfield>
+        </datafield>
+        <datafield tag="050" ind1=" " ind2="4">
+            <subfield code="a">D849</subfield>
+            <subfield code="b">.G56 2020</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2="4">
+            <subfield code="a">809.9335</subfield>
+            <subfield code="2">23</subfield>
+        </datafield>
+        <datafield tag="245" ind1="0" ind2="0">
+            <subfield code="a">Global revolutionary aesthetics and politics after Paris '68 /</subfield>
+            <subfield code="c">edited by Martin Munro, William J. Cloonan, Barry J. Faulk, and Christian P. Weber.</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="1">
+            <subfield code="a">Lanham, Maryland :</subfield>
+            <subfield code="b">Lexington Books,</subfield>
+            <subfield code="c">[2020]</subfield>
+        </datafield>
+        <datafield tag="264" ind1=" " ind2="4">
+            <subfield code="c">©2020</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">v, 198 pages :</subfield>
+            <subfield code="b">illustrations ;</subfield>
+            <subfield code="c">23 cm</subfield>
+        </datafield>
+        <datafield tag="336" ind1=" " ind2=" ">
+            <subfield code="a">text</subfield>
+            <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield tag="337" ind1=" " ind2=" ">
+            <subfield code="a">unmediated</subfield>
+            <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield tag="338" ind1=" " ind2=" ">
+            <subfield code="a">volume</subfield>
+            <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">After the empire</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references and index.</subfield>
+        </datafield>
+        <datafield tag="505" ind1="0" ind2="0">
+            <subfield code="t">Introduction : global revolutionary aesthetics and politics after Paris 1968 /</subfield>
+            <subfield code="r">William Cloonan, Barry J. Faulk, Martin Munro, and Christian P. Weber --</subfield>
+            <subfield code="t">1968-past, present, future : models of art and activism in Jannis Kounelli's Senza titolo (Untitled), 1969 /</subfield>
+            <subfield code="r">Chris Bennett --</subfield>
+            <subfield code="g">The</subfield>
+            <subfield code="t">Quebec Spring, a new May 1968? /</subfield>
+            <subfield code="r">Timo Obergöker --</subfield>
+            <subfield code="t">Ghosts for the present : countercultural aesthetics and postcoloniality for contemporary Italy. The work of Wu Ming 2
+                and Fare Ala /</subfield>
+            <subfield code="r">Tenley Bick --</subfield>
+            <subfield code="g">La</subfield>
+            <subfield code="t">Fac Soixante-Huitarde : the centre universitaire expérimental de Vincennes and the afterlife of a revolutionary moment
+                /</subfield>
+            <subfield code="r">Paul Cohen --</subfield>
+            <subfield code="t">Class struggle : Ascanio Celestini, Nanni Balestrini, and the living legacy of the Italian 1968 /</subfield>
+            <subfield code="r">Giuseppina Mecchia --</subfield>
+            <subfield code="t">Recalibrating memories : the divergent afterlife of Northern Ireland's 1968 /</subfield>
+            <subfield code="r">Chris Reynolds --</subfield>
+            <subfield code="t">Conflicts of class, race, and sexuality : reading Leïla Slimani's Chanson douce (2016) and Dans le jardin de l'ogre
+                (2014) through Julia Kristeva's Post-'68 feminism /</subfield>
+            <subfield code="r">Valérie K. Orlando --</subfield>
+            <subfield code="t">Aftereffects of May 1968 on men and women according to Michel Houellebecq /</subfield>
+            <subfield code="r">Alexis L. Chauchois and Gilles Glacet --</subfield>
+            <subfield code="g">A</subfield>
+            <subfield code="t">timeless spirit : revolutionary aesthetics in Roberto Bolaño's Amulet /</subfield>
+            <subfield code="r">Augustus O'Neill.</subfield>
+        </datafield>
+        <datafield tag="520" ind1=" " ind2=" ">
+            <subfield code="a">The year 2018 marked the fiftieth anniversary of May '68, a startling, by now almost mythic event which combined
+                seriousness, courage, humor and theatrics. The contributions of this volume—based on papers presented the conference Does "la lutte
+                continue"? The Global Afterlife of May '68 at Florida State University in March 2019—explore the ramifications of that springtime
+                protest in the contemporary world. What has widely become known as the movement of ‘68 consisted, in fact, of many synchronous
+                movements in different nations that promoted a great variety of political, social, and cultural agendas. While it is impossible to
+                write a global history of '68, this volume presents a kaleidoscope of different perceptions, reflections, and receptions of protest in
+                France, Italy, and other nations that share in common a global utopian imaginary as expressed, for example, in the slogan: "All power
+                to the imagination!" The contributions of this collection show that, while all social struggles are political, many lasting changes in
+                individual mentalities and social structures originated from utopian ideas that were realized first in artistic productions and their
+                aesthetic reception. In this respect the various protests of May '68 continue.</subfield>
+        </datafield>
+        <datafield tag="590" ind1=" " ind2=" ">
+            <subfield code="a">Florida State University faculty publication</subfield>
+            <subfield code="9">local</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Nineteen sixty-eight, A.D.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">European literature</subfield>
+            <subfield code="x">History and criticism.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Aesthetics, European.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Protest movements.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Aesthetics, European.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst00798768</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">European literature.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst00916751</subfield>
+        </datafield>
+        <datafield tag="655" ind1=" " ind2="7">
+            <subfield code="a">Criticism, interpretation, etc.</subfield>
+            <subfield code="2">fast</subfield>
+            <subfield code="0">(OCoLC)fst01411635</subfield>
+        </datafield>
+        <datafield tag="776" ind1="0" ind2="8">
+            <subfield code="i">ebook version :</subfield>
+            <subfield code="z">9781793625748</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">After the empire.</subfield>
+        </datafield>
+    </record>
+</collection>
