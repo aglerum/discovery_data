@@ -22,7 +22,7 @@
             <!-- Batch date -->
             <!-- Enter the batch name in this Format: GOBI-FIRM_UPDATE_11150708 or GOBI-APPROVAL_ap19150729 where the numbers are the name of the original file-->
             <xsl:variable name="batch">
-                <xsl:value-of select="'GOBI-APPROVAL_ap21210916'"/>
+                <xsl:value-of select="'GOBI New_Imported_20211014'"/>
             </xsl:variable>
 
             <!-- Encoding Variable -->
