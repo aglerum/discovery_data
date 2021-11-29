@@ -7,7 +7,7 @@
 
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Last updated: </xd:b>October 2, 2021</xd:p>
+            <xd:p><xd:b>Last updated: </xd:b>November 1, 2021</xd:p>
             <xd:p><xd:b>Based on </xd:b>ybp2dsv.xsl</xd:p>
             <xd:p><xd:b>Author: </xd:b>Annie Glerum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University Libraries</xd:p>
@@ -16,14 +16,19 @@
     </xd:doc>
 
     <xsl:template match="/">
-        <xsl:text>Batch|Flag|OCLC|Title|Details&#13;</xsl:text>
+        <xsl:variable name="batch">
+            <!--<xsl:value-of select="'GOBI Approval_Imported_20211106'"/>-->
+            <xsl:value-of select="substring-before(substring-after(document-uri(.),'file:/Users/annieglerum/Documents/GOBI_QC_local/XML/Current_Batch/'),'.xml')"/>
+        </xsl:variable>
+        <xsl:text>Batch&#x9;Flag&#x9;MMS&#x9;OCLC&#x9;Title&#x9;Details&#13;</xsl:text>
         <xsl:for-each select="collection/record">
             <!-- ***Global variables*** -->
+            <!-- Delimiter -->
+            <xsl:variable name="delimiter" select="'&#x9;'"/>
             <!-- Batch date -->
-            <!-- Enter the batch name in this Format: GOBI-FIRM_UPDATE_11150708 or GOBI-APPROVAL_ap19150729 where the numbers are the name of the original file-->
-            <xsl:variable name="batch">
-                <xsl:value-of select="'GOBI New_Imported_20211014'"/>
-            </xsl:variable>
+            
+            <!-- MMS -->
+            <xsl:variable name="mms" select="controlfield[@tag='001']"/>
 
             <!-- Encoding Variable -->
             <xsl:variable name="encoding" select="substring(leader, 18, 1)"/>
@@ -102,7 +107,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('Encoding level: ', $encoding)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
 
                 </xsl:when>
                 <xsl:otherwise/>
@@ -135,7 +140,7 @@
                         <xsl:value-of select="normalize-space(concat('Cataloging Source. Subfield A: ', $sourceA, ' SubfieldD: ', $sourceD))"/>
                     </xsl:variable>
 
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
 
                 </xsl:when>
                 <xsl:otherwise/>
@@ -161,7 +166,7 @@
                         <xsl:value-of select="concat('Control Field 001: ', $control-001)"/>
                     </xsl:variable>
 
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -187,7 +192,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('Extent: ', $extent)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -226,7 +231,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('050: ', $call050, $call050B, ' 090: ', $call090, $call090B)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -255,7 +260,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('050-1: ', $call050-1, ' 050-2: ', $call050-2)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -304,7 +309,7 @@
                         <xsl:variable name="details">
                             <xsl:value-of select="normalize-space(concat('020a: ', $isbnA))"/>
                         </xsl:variable>
-                        <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"
+                        <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"
                         />
                     </xsl:when>
                     <xsl:otherwise/>
@@ -354,7 +359,7 @@
                         <xsl:variable name="details">
                             <xsl:value-of select="normalize-space(concat('020a: ', $isbnQ))"/>
                         </xsl:variable>
-                        <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"
+                        <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"
                         />
                     </xsl:when>
                     <xsl:otherwise/>
@@ -407,7 +412,7 @@
                                 concat('Geo Code: ', $geoCode, ' -- ', 'GeoHeadings: ', $geoHdgA, ' ; ', $geoHdgNameZ, ' ; ', $geoHdgCorpZ, ' ; ', $geoHdgMtgZ, ' ; ', $geoHdgTopicZ)
                                 "/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -433,7 +438,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('245 Ind1: ', $titleInd1)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -458,7 +463,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('245 Ind2: ', $titleInd1, ' Title: ', $titleA)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -482,7 +487,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('264_4: ', $copyright)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -505,7 +510,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('Series, obsolete field: ', string(datafield[@tag = '440']))"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -529,7 +534,7 @@
                         <xsl:variable name="details">
                             <xsl:value-of select="concat('Series statement (untraced): ', $series490)"/>
                         </xsl:variable>
-                        <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"
+                        <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"
                         />
                     </xsl:when>
                     <xsl:otherwise/>
@@ -555,7 +560,7 @@
                         <xsl:variable name="details">
                             <xsl:value-of select="concat('Series statement (traced): ', $series490)"/>
                         </xsl:variable>
-                        <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"
+                        <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"
                         />
                     </xsl:when>
                     <xsl:otherwise/>
@@ -581,7 +586,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="'Check Bib record'"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -611,7 +616,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="'Edit bib record'"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -671,7 +676,7 @@
                         <xsl:variable name="details">
                             <xsl:value-of select="concat('Part number:', $titleN, ' -- ', 'Part Title:', $titleP)"/>
                         </xsl:variable>
-                        <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"
+                        <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"
                         />
                     </xsl:when>
                     <xsl:otherwise/>
@@ -697,7 +702,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('993: ', $set993)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:for-each>
             </xsl:if>
 
@@ -725,7 +730,7 @@
                                 <xsl:value-of select="concat('ISBN:', $isbnA)"/>
                             </xsl:variable>
                             <xsl:value-of
-                                select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                                select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                         </xsl:when>
                         <xsl:otherwise/>
                     </xsl:choose>
@@ -753,7 +758,7 @@
                                 <xsl:value-of select="concat('ISBN:', $isbnA, 'Qualifier:', $isbnQ)"/>
                             </xsl:variable>
                             <xsl:value-of
-                                select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                                select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                         </xsl:when>
                         <xsl:otherwise/>
                     </xsl:choose>
@@ -779,7 +784,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('Accompanying:', $accomp)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -830,7 +835,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="'Check Bib record'"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -848,13 +853,13 @@
                 <xsl:value-of select="datafield[@tag = '856']/subfield[@code = 'u']"/>
             </xsl:variable>
             <xsl:variable name="urlY">
-                <xsl:value-of select="datafield[@tag = '856']/subfield[@code = 'u']"/>
+                <xsl:value-of select="datafield[@tag = '856']/subfield[@code = 'y']"/>
             </xsl:variable>
             <xsl:variable name="urlZ">
-                <xsl:value-of select="datafield[@tag = '856']/subfield[@code = 'u']"/>
+                <xsl:value-of select="datafield[@tag = '856']/subfield[@code = 'z']"/>
             </xsl:variable>
             <xsl:variable name="url3">
-                <xsl:value-of select="datafield[@tag = '856']/subfield[@code = 'u']"/>
+                <xsl:value-of select="datafield[@tag = '856']/subfield[@code = '3']"/>
             </xsl:variable>
 
             <xsl:choose>
@@ -881,7 +886,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('Ind1:', $url1, ' ; ', 'Ind2:', $url2, ' ; ', '$3: ', $url3, '$3: ', $urlY, '$z: ', $urlZ)"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -905,7 +910,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="'CHeck Bib record'"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -929,7 +934,7 @@
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('Number of 049 fields: ', count($Hol049))"/>
                     </xsl:variable>
-                    <xsl:value-of select="concat($batch, '|', $flag, '|', $this_oclc, '|', normalize-space($this_title), '|', $details, '&#13;')"/>
+                    <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
