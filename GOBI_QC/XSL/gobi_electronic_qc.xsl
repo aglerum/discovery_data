@@ -245,32 +245,32 @@
             <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'a']">
                 <xsl:choose>
                     <xsl:when test="
-                            (contains(subfield[@code = 'a'], '(') and subfield[@code = 'a'][not(following-sibling::subfield[@code = 'q'])])
-                            and
-                            (
-                            contains($isbnA, 'paperback')
-                            or contains($isbnA, 'hardcover')
-                            or contains($isbnA, 'pbk')
-                            or contains($isbnA, 'Pbk')
-                            or contains($isbnA, 'pb')
-                            or contains($isbnA, 'paper')
-                            or contains($isbnA, 'Paper')
-                            or contains($isbnA, 'hardbound')
-                            or contains($isbnA, 'hardcover')
-                            or contains($isbnA, 'hard cover')
-                            or contains($isbnA, 'hardback')
-                            or contains($isbnA, 'cloth')
-                            or contains($isbnA, 'cl.')
-                            or contains($isbnA, 'bound')
-                            or contains($isbnA, 'hbk')
-                            or contains($isbnA, 'Hhbk')
-                            or contains($isbnA, 'hb')
-                            or contains($isbnA, 'hc')
-                            or contains($isbnA, 'HB')
-                            or contains($isbnA, 'hdb.')
-                            or contains($isbnA, 'hd.bd.')
-                            or contains($isbnA, 'trade')
-                            )">
+                        (contains(subfield[@code = 'a'], '(') and subfield[@code = 'a'][not(following-sibling::subfield[@code = 'q'])])
+                        and
+                        (
+                        contains($isbnA, 'paperback')
+                        or contains($isbnA, 'hardcover')
+                        or contains($isbnA, 'pbk')
+                        or contains($isbnA, 'Pbk')
+                        or contains($isbnA, 'pb')
+                        or contains($isbnA, 'paper')
+                        or contains($isbnA, 'Paper')
+                        or contains($isbnA, 'hardbound')
+                        or contains($isbnA, 'hardcover')
+                        or contains($isbnA, 'hard cover')
+                        or contains($isbnA, 'hardback')
+                        or contains($isbnA, 'cloth')
+                        or contains($isbnA, 'cl.')
+                        or contains($isbnA, 'bound')
+                        or contains($isbnA, 'hbk')
+                        or contains($isbnA, 'Hhbk')
+                        or contains($isbnA, 'hb')
+                        or contains($isbnA, 'hc')
+                        or contains($isbnA, 'HB')
+                        or contains($isbnA, 'hdb.')
+                        or contains($isbnA, 'hd.bd.')
+                        or contains($isbnA, 'trade')
+                        )">
                         <!-- Batch is global variable -->
                         <xsl:variable name="flag">
                             <xsl:value-of select="'CHECK-ISBN_20a_Physical'"/>
@@ -601,7 +601,7 @@
                 <xsl:when test="
                         not(contains($titleH,'electronic')
                         or contains($titleH,'online')
-                        or starts-with($characteristics, 'o')
+                        or starts-with($characteristics, 'c')
                         or $rdaMediaA != 'computer'
                         or $rdaMediaB != 'c'
                         or $rdaCarrierA != 'online resource'
