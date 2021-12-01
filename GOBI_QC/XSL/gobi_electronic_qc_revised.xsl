@@ -273,7 +273,7 @@
             </xsl:for-each>
 
             <!-- ISBN for e-books: Flags records with 020 fields with $q that might be for physical books -->
-            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'q'][
+            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'q'][preceding-sibling::subfield[@code = 'a']][
                 contains(upper-case(.), 'PAPER')
                 or contains(upper-case(.), 'HARD')
                 or contains(upper-case(.), 'PB')
