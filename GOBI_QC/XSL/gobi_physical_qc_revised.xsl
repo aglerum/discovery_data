@@ -7,7 +7,7 @@
 
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Last updated: </xd:b>November 1, 2021</xd:p>
+            <xd:p><xd:b>Last updated: </xd:b>December 1, 2021</xd:p>
             <xd:p><xd:b>Based on </xd:b>ybp2dsv.xsl</xd:p>
             <xd:p><xd:b>Author: </xd:b>Annie Glerum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University Libraries</xd:p>
@@ -267,38 +267,14 @@
 
             <!-- ***Checklists for possible errors -->
             <!-- ISBN for e-books: Flags records with 020 fields without $q that might be for ebooks -->
-            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'a']">
-                <xsl:choose>
-                    <xsl:when test="
-                            (contains(subfield[@code = 'a'], '(') and subfield[@code = 'a'][not(following-sibling::subfield[@code = 'q'])])
-                            and
-                            (
-                            not(contains($isbnA, 'paperback')
-                            or contains($isbnA, 'hardcover')
-                            or contains($isbnA, 'pbk')
-                            or contains($isbnA, 'Pbk')
-                            or contains($isbnA, 'pb')
-                            or contains($isbnA, 'paper')
-                            or contains($isbnA, 'Paper')
-                            or contains($isbnA, 'hardbound')
-                            or contains($isbnA, 'hardcover')
-                            or contains($isbnA, 'hard cover')
-                            or contains($isbnA, 'hardback')
-                            or contains($isbnA, 'cloth')
-                            or contains($isbnA, 'cl.')
-                            or contains($isbnA, 'bound')
-                            or contains($isbnA, 'hbk')
-                            or contains($isbnA, 'Hhbk')
-                            or contains($isbnA, 'hb')
-                            or contains($isbnA, 'hc')
-                            or contains($isbnA, 'HB')
-                            or contains($isbnA, 'hdb.')
-                            or contains($isbnA, 'hd.bd.')
-                            or contains($isbnA, 'trade'))
-                            )">
+            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'a'][contains(.,'(') and (contains(upper-case(.), 'ELECTRONIC')
+                or contains(upper-case(.), 'EBOOK')
+                or contains(upper-case(.), 'MOBI')
+                or contains(upper-case(.), 'PDF')
+                or contains(upper-case(.), 'EPUB'))]">
                         <!-- Batch is global variable -->
                         <xsl:variable name="flag">
-                            <xsl:value-of select="'EDIT-ISBN_20a-to-q'"/>
+                            <xsl:value-of select="'EDIT-ISBN_20a-to-z'"/>
                         </xsl:variable>
                         <xsl:variable name="this_oclc">
                             <xsl:value-of select="$oclc"/>
@@ -307,48 +283,28 @@
                             <xsl:value-of select="$title"/>
                         </xsl:variable>
                         <xsl:variable name="details">
-                            <xsl:value-of select="normalize-space(concat('020a: ', $isbnA))"/>
+                            <xsl:for-each select=".">
+                                <xsl:value-of select="normalize-space(concat('020a: ', .))"/>
+                            </xsl:for-each>
                         </xsl:variable>
                         <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"
                         />
-                    </xsl:when>
+                
+                    <!--</xsl:when>
                     <xsl:otherwise/>
-                </xsl:choose>
+                </xsl:choose>-->
             </xsl:for-each>
 
             <!-- ISBN for e-books: Flags records with 020 fields with $q that might be for ebooks -->
-            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'a']">
+            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'q'][contains(upper-case(.), 'ELECTRONIC')
+                or contains(upper-case(.), 'EBOOK')
+                or contains(upper-case(.), 'MOBI')
+                or contains(upper-case(.), 'PDF')
+                or contains(upper-case(.), 'EPUB')]">
 
-                <xsl:choose>
-                    <xsl:when test="
-                            (subfield[@code = 'a'] and datafield[@tag = '020']/subfield[@code = 'a'][not(following-sibling::subfield[@code = 'q'])])
-                            and
-                            not(contains($isbnQ, 'paperback')
-                            or contains($isbnQ, 'hardcover')
-                            or contains($isbnQ, 'pbk')
-                            or contains($isbnQ, 'Pbk')
-                            or contains($isbnQ, 'pb')
-                            or contains($isbnQ, 'paper')
-                            or contains($isbnQ, 'Paper')
-                            or contains($isbnQ, 'hardbound')
-                            or contains($isbnQ, 'hardcover')
-                            or contains($isbnQ, 'hard cover')
-                            or contains($isbnQ, 'hardback')
-                            or contains($isbnQ, 'cloth')
-                            or contains($isbnQ, 'cl.')
-                            or contains($isbnQ, 'bound')
-                            or contains($isbnQ, 'hbk')
-                            or contains($isbnQ, 'Hhbk')
-                            or contains($isbnQ, 'hb')
-                            or contains($isbnQ, 'hc')
-                            or contains($isbnQ, 'HB')
-                            or contains($isbnQ, 'hdb.')
-                            or contains($isbnQ, 'hd.bd.')
-                            or contains($isbnQ, 'trade'))
-                            ">
                         <!-- Batch is global variable -->
                         <xsl:variable name="flag">
-                            <xsl:value-of select="'EDIT-ISBN_020q-to-z'"/>
+                            <xsl:value-of select="'EDIT-ISBN_020aq-to-z'"/>
                         </xsl:variable>
                         <xsl:variable name="this_oclc">
                             <xsl:value-of select="$oclc"/>
@@ -357,13 +313,10 @@
                             <xsl:value-of select="$title"/>
                         </xsl:variable>
                         <xsl:variable name="details">
-                            <xsl:value-of select="normalize-space(concat('020a: ', $isbnQ))"/>
+                            <xsl:value-of select="normalize-space(concat('020a: ', preceding-sibling::subfield[@code = 'a'], ' 020q: ', .))"/>
                         </xsl:variable>
                         <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"
                         />
-                    </xsl:when>
-                    <xsl:otherwise/>
-                </xsl:choose>
             </xsl:for-each>
 
             <!-- Geo: Records with 043 but no 651 or 6xx $z; 651 or 6xx $z but no 043 -->

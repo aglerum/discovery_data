@@ -17,8 +17,8 @@
 
     <xsl:template match="/">
         <xsl:variable name="batch">
-            <!--<xsl:value-of select="'GOBI Approval_Imported_20211106'"/>-->
-            <xsl:value-of select="substring-before(substring-after(document-uri(.),'file:/Users/annieglerum/Documents/GOBI_QC_local/XML/Current_Batch/'),'.xml')"/>
+            <xsl:value-of select="'09022021_093913EDT'"/>
+          <!--  <xsl:value-of select="substring-before(substring-after(document-uri(.),'file:/Users/annieglerum/Documents/GOBI_QC_local/XML/Current_Batch/'),'.xml')"/>-->
         </xsl:variable>
         <xsl:text>Batch&#x9;Flag&#x9;MMS&#x9;OCLC&#x9;Title&#x9;Details&#13;</xsl:text>
         <xsl:for-each select="collection/record">
@@ -242,11 +242,9 @@
             <!-- ***Checklists for possible errors -->
             
             <!-- ISBN for e-books: Flags records with 020 fields with $a () that might be for physical books -->
-            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'a']">
+            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'a'][not(following-sibling::subfield[@code = 'q'])]">
                 <xsl:choose>
                     <xsl:when test="
-                        (contains(subfield[@code = 'a'], '(') and subfield[@code = 'a'][not(following-sibling::subfield[@code = 'q'])])
-                        and
                         (
                         contains($isbnA, 'paperback')
                         or contains($isbnA, 'hardcover')
@@ -282,7 +280,7 @@
                             <xsl:value-of select="$title"/>
                         </xsl:variable>
                         <xsl:variable name="details">
-                            <xsl:value-of select="normalize-space(concat('020a: ', $isbnA))"/>
+                            <xsl:value-of select="normalize-space(concat('020a_noQ: ', $isbnA))"/>
                         </xsl:variable>
                         <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"
                         />
@@ -292,12 +290,10 @@
             </xsl:for-each>
 
             <!-- ISBN for e-books: Flags records with 020 fields with $q that might be for physical books -->
-            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'a']">
+            <xsl:for-each select="datafield[@tag = '020']/subfield[@code = 'a'][following-sibling::subfield[@code = 'q']]">
 
                 <xsl:choose>
                     <xsl:when test="
-                            (subfield[@code = 'a'] and datafield[@tag = '020']/subfield[@code = 'a'][not(following-sibling::subfield[@code = 'q'])])
-                            and
                             contains($isbnQ, 'paperback')
                             or contains($isbnQ, 'hardcover')
                             or contains($isbnQ, 'pbk')
@@ -332,7 +328,7 @@
                             <xsl:value-of select="$title"/>
                         </xsl:variable>
                         <xsl:variable name="details">
-                            <xsl:value-of select="normalize-space(concat('020a: ', $isbnQ))"/>
+                            <xsl:value-of select="normalize-space(concat('020a_Q: ', $isbnQ))"/>
                         </xsl:variable>
                         <xsl:value-of select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, normalize-space($this_title), $delimiter, $details, '&#13;')"
                         />
