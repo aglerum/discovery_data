@@ -7,24 +7,41 @@
     
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Last updated: </xd:b>November 1, 2021</xd:p>
+            <xd:p><xd:b>Last updated: </xd:b>December 4, 2021</xd:p>
             <xd:p><xd:b>Author: </xd:b>Annie Glerum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University Libraries</xd:p>
-            <xd:p><xd:b>Title: </xd:b>Get MARC Data</xd:p>
+            <xd:p><xd:b>Title: </xd:b>Get Vendor-Provided MARC Data for Titles List</xd:p>
             <xd:p>Get key descriptive elements for specific review</xd:p>
         </xd:desc>
     </xd:doc>
     
     <xsl:template match="/">
-        <xsl:text>Batch&#x9;GOBI_024&#x9;GOBI_035&#x9;OCLC&#x9;Field_049&#x9;Field_980&#x9;Field_981&#x9;Field_993&#x9;Title&#13;</xsl:text>
+        <xsl:text>Profile Type&#x9;Process Type&#x9;Import Date&#x9;Batch&#x9;GOBI_024&#x9;GOBI_035&#x9;OCLC&#x9;Field_049&#x9;Field_980&#x9;Field_981&#x9;Field_993&#x9;Title&#13;</xsl:text>
         <xsl:for-each select="collection/record">
-            <!-- Delimiter -->
+            <!-- Tab Delimiter -->
             <xsl:variable name="delimiter" select="'&#x9;'"/>
             
-            <!-- Batch date -->
+            <!-- Batch Name as file name -->
+            <!-- Change path as needed -->
             <xsl:variable name="batch">
-                <!--<xsl:value-of select="datafield[@tag = '999']/subfield[@code = 'a']"/>-->
-                <xsl:value-of select="'GOBI_Update_Not_Imported_20211119'"/>
+                <!--Example filename: GOBI Approval_Not_Imported_20211106 -->
+                <xsl:value-of select="substring-before(substring-after(document-uri(.),'file:/Users/annieglerum/Documents/GOBI_QC_local/XML/Current_Batch/'),'.xml')"/>
+            </xsl:variable>
+            
+            <!-- Profile Type -->
+            <xsl:variable name="profile" select="if(
+                contains($batch,'Approval')) then 'Approval' else
+                if(contains($batch,'New')) then 'New' else
+                if (contains($batch,'Update')) then 'Update' else
+                'ERROR'"/>
+            
+            <!-- Process Type -->
+            <xsl:variable name="process" select="'Not Imported'"/>
+            
+            <!-- Import Date -->
+            <xsl:variable name="date">
+                <xsl:variable name="string" select="tokenize($batch,'_')[last()]"/>
+                <xsl:value-of select="concat(substring($string,1,4),'-',substring($string,5,2),'-',substring($string,7,2))"/>
             </xsl:variable>
                     
             <!-- GOBI_024 -->
@@ -67,7 +84,7 @@
                 <xsl:value-of select ="datafield[@tag = '245']/*"/>
             </xsl:variable>
             
-            <xsl:value-of select="concat($batch, $delimiter, $gobi_024, $delimiter, $gobi_035, $delimiter, $oclc, $delimiter, $field_049, $delimiter, $field_980, $delimiter, $field_981, $delimiter, $field_993
+            <xsl:value-of select="concat($profile, $delimiter,$process, $delimiter,$date, $delimiter,$batch, $delimiter, $gobi_024, $delimiter, $gobi_035, $delimiter, $oclc, $delimiter, $field_049, $delimiter, $field_980, $delimiter, $field_981, $delimiter, $field_993
                 , $delimiter, normalize-space($title), '&#13;')"/>
         </xsl:for-each>
     </xsl:template>
