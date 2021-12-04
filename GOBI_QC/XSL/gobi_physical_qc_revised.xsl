@@ -71,9 +71,6 @@
                 />
             </xsl:variable>
 
-            <!-- Title and responsibility-->
-            <xsl:variable name="title" select="datafield[@tag = '245']/*"/>
-
             <!-- Extent Variable -->
             <xsl:variable name="extent">
                 <xsl:value-of select="datafield[@tag = '300']"/>
@@ -108,7 +105,7 @@
                         <xsl:value-of select="$oclc"/>
                     </xsl:variable>
                     <xsl:variable name="this_title">
-                        <xsl:value-of select="$title"/>
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
                     </xsl:variable>
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('Encoding level: ', $encoding)"/>
@@ -141,7 +138,7 @@
                         <xsl:value-of select="$oclc"/>
                     </xsl:variable>
                     <xsl:variable name="this_title">
-                        <xsl:value-of select="$title"/>
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
                     </xsl:variable>
                     <xsl:variable name="details">
                         <xsl:value-of
@@ -170,7 +167,7 @@
                         <xsl:value-of select="$oclc"/>
                     </xsl:variable>
                     <xsl:variable name="this_title">
-                        <xsl:value-of select="$title"/>
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
                     </xsl:variable>
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('Control Field 001: ', $control-001)"/>
@@ -199,7 +196,7 @@
                         <xsl:value-of select="$oclc"/>
                     </xsl:variable>
                     <xsl:variable name="this_title">
-                        <xsl:value-of select="$title"/>
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
                     </xsl:variable>
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('Extent: ', $extent)"/>
@@ -241,7 +238,7 @@
                             <xsl:value-of select="$oclc"/>
                         </xsl:variable>
                         <xsl:variable name="this_title">
-                            <xsl:value-of select="$title"/>
+                            <xsl:value-of select="datafield[@tag = '245']/*"/>
                         </xsl:variable>
                         <xsl:variable name="details">
                             <xsl:value-of
@@ -275,7 +272,7 @@
                         <xsl:value-of select="$oclc"/>
                     </xsl:variable>
                     <xsl:variable name="this_title">
-                        <xsl:value-of select="$title"/>
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
                     </xsl:variable>
                     <xsl:variable name="details">
                         <xsl:value-of select="concat('050-1: ', $call050-1, ' 050-2: ', $call050-2)"
@@ -304,7 +301,7 @@
                     <xsl:value-of select="$oclc"/>
                 </xsl:variable>
                 <xsl:variable name="this_title">
-                    <xsl:value-of select="$title"/>
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
                     <xsl:for-each select=".">
@@ -333,7 +330,7 @@
                     <xsl:value-of select="$oclc"/>
                 </xsl:variable>
                 <xsl:variable name="this_title">
-                    <xsl:value-of select="$title"/>
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
                     <xsl:value-of
@@ -363,7 +360,7 @@
                         <xsl:value-of select="$oclc"/>
                     </xsl:variable>
                     <xsl:variable name="this_title">
-                        <xsl:value-of select="$title"/>
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
                     </xsl:variable>
                     <xsl:variable name="details">
                         <xsl:value-of select="'No Geo Code; Check Bib Record for Geo Headings'"/>
@@ -391,7 +388,7 @@
                             <xsl:value-of select="$oclc"/>
                         </xsl:variable>
                         <xsl:variable name="this_title">
-                            <xsl:value-of select="$title"/>
+                            <xsl:value-of select="datafield[@tag = '245']/*"/>
                         </xsl:variable>
                         <xsl:variable name="details">
                             <xsl:value-of select="concat('245 Ind1: ', $titleInd1)"/>
@@ -419,7 +416,7 @@
                             <xsl:value-of select="$oclc"/>
                         </xsl:variable>
                         <xsl:variable name="this_title">
-                            <xsl:value-of select="$title"/>
+                            <xsl:value-of select="datafield[@tag = '245']/*"/>
                         </xsl:variable>
                         <xsl:variable name="details">
                             <xsl:value-of
@@ -444,7 +441,7 @@
                     <xsl:value-of select="$oclc"/>
                 </xsl:variable>
                 <xsl:variable name="this_title">
-                    <xsl:value-of select="$title"/>
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
                     <xsl:value-of select="concat('264_4: ', subfield[@code = 'a'])"/>
@@ -464,7 +461,7 @@
                     <xsl:value-of select="$oclc"/>
                 </xsl:variable>
                 <xsl:variable name="this_title">
-                    <xsl:value-of select="$title"/>
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
                     <xsl:value-of select="concat('Series, obsolete field: ', string(.))"/>
@@ -484,10 +481,10 @@
                     <xsl:value-of select="$oclc"/>
                 </xsl:variable>
                 <xsl:variable name="this_title">
-                    <xsl:value-of select="$title"/>
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
-                    <xsl:value-of select="concat('Series statement (untraced): ', .)"/>
+                    <xsl:value-of select="concat('Series statement (untraced): ', normalize-space(.))"/>
                 </xsl:variable>
                 <xsl:value-of
                     select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
@@ -504,10 +501,10 @@
                     <xsl:value-of select="$oclc"/>
                 </xsl:variable>
                 <xsl:variable name="this_title">
-                    <xsl:value-of select="$title"/>
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
-                    <xsl:value-of select="concat('Series statement (traced): ', .)"/>
+                    <xsl:value-of select="concat('Series statement (traced): ', normalize-space(.))"/>
                 </xsl:variable>
                 <xsl:value-of
                     select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
@@ -528,7 +525,7 @@
                         <xsl:value-of select="$oclc"/>
                     </xsl:variable>
                     <xsl:variable name="this_title">
-                        <xsl:value-of select="$title"/>
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
                     </xsl:variable>
                     <xsl:variable name="details">
                         <xsl:value-of select="'Check Bib record'"/>
@@ -555,7 +552,7 @@
                             <xsl:value-of select="$oclc"/>
                         </xsl:variable>
                         <xsl:variable name="this_title">
-                            <xsl:value-of select="$title"/>
+                            <xsl:value-of select="datafield[@tag = '245']/*"/>
                         </xsl:variable>
                         <xsl:variable name="details">
                             <xsl:value-of select="'Edit bib record'"/>
@@ -618,7 +615,7 @@
                                 <xsl:value-of select="$oclc"/>
                             </xsl:variable>
                             <xsl:variable name="this_title">
-                                <xsl:value-of select="$title"/>
+                                <xsl:value-of select="datafield[@tag = '245']/*"/>
                             </xsl:variable>
                             <xsl:variable name="details">
                                 <xsl:value-of
@@ -653,7 +650,7 @@
                                 <xsl:value-of select="$oclc"/>
                             </xsl:variable>
                             <xsl:variable name="this_title">
-                                <xsl:value-of select="$title"/>
+                                <xsl:value-of select="datafield[@tag = '245']/*"/>
                             </xsl:variable>
                             <xsl:variable name="details">
                                 <xsl:value-of select="concat('ISBN:', $isbnA)"/>
@@ -683,7 +680,7 @@
                                 <xsl:value-of select="$oclc"/>
                             </xsl:variable>
                             <xsl:variable name="this_title">
-                                <xsl:value-of select="$title"/>
+                                <xsl:value-of select="datafield[@tag = '245']/*"/>
                             </xsl:variable>
                             <xsl:variable name="details">
                                 <xsl:value-of select="concat('ISBN:', $isbnA, 'Qualifier:', $isbnQ)"
@@ -711,7 +708,7 @@
                     <xsl:value-of select="$oclc"/>
                 </xsl:variable>
                 <xsl:variable name="this_title">
-                    <xsl:value-of select="$title"/>
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
                     <xsl:value-of select="concat('993: ', $set993)"/>
@@ -731,10 +728,10 @@
                     <xsl:value-of select="$oclc"/>
                 </xsl:variable>
                 <xsl:variable name="this_title">
-                    <xsl:value-of select="$title"/>
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
-                    <xsl:value-of select="concat('Accompanying:', .)"/>
+                    <xsl:value-of select="concat('Accompanying:', normalize-space(.))"/>
                 </xsl:variable>
                 <xsl:value-of
                     select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
@@ -782,7 +779,7 @@
                         <xsl:value-of select="$oclc"/>
                     </xsl:variable>
                     <xsl:variable name="this_title">
-                        <xsl:value-of select="$title"/>
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
                     </xsl:variable>
                     <xsl:variable name="details">
                         <xsl:value-of select="'Check Bib record'"/>
@@ -833,7 +830,7 @@
                             <xsl:value-of select="$oclc"/>
                         </xsl:variable>
                         <xsl:variable name="this_title">
-                            <xsl:value-of select="$title"/>
+                            <xsl:value-of select="datafield[@tag = '245']/*"/>
                         </xsl:variable>
                         <xsl:variable name="details">
                             <xsl:value-of
@@ -859,7 +856,7 @@
                     <xsl:value-of select="$oclc"/>
                 </xsl:variable>
                 <xsl:variable name="this_title">
-                    <xsl:value-of select="$title"/>
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
                     <xsl:value-of select="'Check Bib record'"/>
