@@ -90,7 +90,8 @@
             <!-- ***Recieved full or Provisional Plus*** -->
             <!-- Full level records -->
             <xsl:choose>
-                <xsl:when test="
+                <xsl:when
+                    test="
                         not($encoding = ' '
                         or $encoding = '4'
                         or $encoding = '1'
@@ -127,7 +128,8 @@
             </xsl:variable>
 
             <xsl:choose>
-                <xsl:when test="
+                <xsl:when
+                    test="
                         contains($sourceA, 'NhCcYBP') or contains($sourceD, 'NhCcYBP')
                         ">
                     <!-- Batch is global variable -->
@@ -156,7 +158,8 @@
             <!-- Provisional Plus -->
             <xsl:variable name="control-001" select="controlfield[@tag = '001']"/>
             <xsl:choose>
-                <xsl:when test="
+                <xsl:when
+                    test="
                         contains($control-001, 'ybpprov')
                         ">
                     <!-- Batch is global variable -->
@@ -184,7 +187,8 @@
             <!-- ***YBP Enhancement Check*** -->
             <!-- CIP: ELvl 8 records without numbers in extent -->
             <xsl:choose>
-                <xsl:when test="
+                <xsl:when
+                    test="
                         $encoding = '8'
                         and not(matches(datafield[@tag = '300']/subfield[@code = 'a'], '[0-9]'))
                         ">
@@ -223,7 +227,8 @@
                     <xsl:value-of select="subfield[@code = 'b']"/>
                 </xsl:variable>
                 <xsl:choose>
-                    <xsl:when test="
+                    <xsl:when
+                        test="
                             (not($call050
                             or $call090))
                             or
@@ -261,7 +266,8 @@
                 <xsl:value-of select="datafield[@tag = '050'][2]"/>
             </xsl:variable>
             <xsl:choose>
-                <xsl:when test="
+                <xsl:when
+                    test="
                         count(datafield[@tag = '050']) = 2
                         ">
                     <!-- Batch is global variable -->
@@ -287,7 +293,8 @@
 
             <!-- ***Checklists for possible errors -->
             <!-- ISBN for e-books: Flags records with 020 fields without $q that might be for ebooks -->
-            <xsl:for-each select="
+            <xsl:for-each
+                select="
                     datafield[@tag = '020']/subfield[@code = 'a'][contains(., '(') and (contains(upper-case(.), 'ELECTRONIC')
                     or contains(upper-case(.), 'EBOOK')
                     or contains(upper-case(.), 'MOBI')
@@ -314,8 +321,9 @@
             </xsl:for-each>
 
             <!-- ISBN for e-books: Flags records with 020 fields with $q that might be for ebooks -->
-            <xsl:for-each select="
-                datafield[@tag = '020'][subfield[@code = 'a']/subfield[@code = 'q'][
+            <xsl:for-each
+                select="
+                    datafield[@tag = '020'][subfield[@code = 'a']/subfield[@code = 'q'][
                     contains(upper-case(.), 'ELECTRONIC')
                     or contains(upper-case(.), 'EBOOK')
                     or contains(upper-case(.), 'MOBI')
@@ -344,7 +352,8 @@
 
             <!-- Geo: Records with 651 or 6xx $z but no 043 -->
             <xsl:choose>
-                <xsl:when test="
+                <xsl:when
+                    test="
                         (datafield[@tag = '651'][@ind1 = ' '][@ind2 = '0']
                         or datafield[@tag = '600'][@ind1 = ' '][@ind2 = '0']/subfield[@code = 'z']
                         or datafield[@tag = '610'][@ind1 = ' '][@ind2 = '0']/subfield[@code = 'z']
@@ -377,7 +386,8 @@
                 <xsl:variable name="titleInd1" select="@ind1"/>
                 <!-- Check 245 ind1 -->
                 <xsl:choose>
-                    <xsl:when test="
+                    <xsl:when
+                        test="
                             ($titleInd1 eq '0' and datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130'])
                             or ($titleInd1 eq '1' and not(datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130']))">
                         <!-- Batch is global variable -->
@@ -484,7 +494,8 @@
                     <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
-                    <xsl:value-of select="concat('Series statement (untraced): ', normalize-space(.))"/>
+                    <xsl:value-of
+                        select="concat('Series statement (untraced): ', normalize-space(.))"/>
                 </xsl:variable>
                 <xsl:value-of
                     select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
@@ -504,7 +515,8 @@
                     <xsl:value-of select="datafield[@tag = '245']/*"/>
                 </xsl:variable>
                 <xsl:variable name="details">
-                    <xsl:value-of select="concat('Series statement (traced): ', normalize-space(.))"/>
+                    <xsl:value-of select="concat('Series statement (traced): ', normalize-space(.))"
+                    />
                 </xsl:variable>
                 <xsl:value-of
                     select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
@@ -514,7 +526,8 @@
             <!-- Multiple 490 fields: Generates list of records with 490 to review manually -->
 
             <xsl:choose>
-                <xsl:when test="
+                <xsl:when
+                    test="
                         $series490_count > 1
                         ">
                     <!-- Batch is global variable -->
@@ -540,7 +553,8 @@
             <!-- Contents: Records with contents notes containing "/" that are not coded 505 00 -->
             <xsl:for-each select="datafield[@tag = '505']">
                 <xsl:choose>
-                    <xsl:when test="
+                    <xsl:when
+                        test="
                             @ind1 != '0'
                             and contains(subfield[@code = 'a'], ' / ')
                             ">
@@ -584,7 +598,8 @@
                         <xsl:value-of select="datafield[@tag = '245']/subfield[@code = 'n']"/>
                     </xsl:variable>
                     <xsl:choose>
-                        <xsl:when test="
+                        <xsl:when
+                            test="
                                 not(datafield[@tag = '993']) and
                                 (contains($titleOnly, ' volume ')
                                 or contains($titleOnly, ' vol. ')
@@ -636,7 +651,8 @@
                 <xsl:for-each
                     select="datafield[@tag = '020'][subfield[@code = 'a'] and not(subfield[@code = 'q'])]">
                     <xsl:choose>
-                        <xsl:when test="
+                        <xsl:when
+                            test="
                                 contains(., ' (')
                                 and
                                 (contains(upper-case($isbnA), 'SET') or contains(upper-case($isbnA), '(V')
@@ -669,7 +685,8 @@
                 <xsl:for-each
                     select="datafield[@tag = '020'][subfield[@code = 'a'] and subfield[@code = 'q']]">
                     <xsl:choose>
-                        <xsl:when test="
+                        <xsl:when
+                            test="
                                 contains(upper-case($isbnQ), 'SET') or contains(upper-case($isbnQ), '(V')
                                 ">
                             <!-- Batch is global variable -->
@@ -740,7 +757,8 @@
 
             <!-- NonPrint: Generates checklist of possible non-print records -->
             <xsl:choose>
-                <xsl:when test="
+                <xsl:when
+                    test="
                         not(datafield[@tag = '300']/subfield[@code = 'e'])
                         and
                         ($titleH
@@ -814,7 +832,8 @@
                 </xsl:variable>
 
                 <xsl:choose>
-                    <xsl:when test="
+                    <xsl:when
+                        test="
                             @ind1 != '4'
                             or @ind2 = ' '
                             or @ind2 = '0'
