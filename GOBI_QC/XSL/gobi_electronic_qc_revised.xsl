@@ -197,7 +197,6 @@
                 <xsl:variable name="call090B">
                     <xsl:value-of select="subfield[@code = 'b']"/>
                 </xsl:variable>
-            <xsl:for-each select="datafield[@tag = '050']">
                 <xsl:choose>
                     <xsl:when
                         test="
@@ -447,7 +446,7 @@
                 />
             </xsl:for-each>
 
-            <!-- SeriesObsolete: Generates list of records with 4401 fields to change to 490 ind1=1/830 pairs-->
+            <!-- SeriesObsolete: Generates list of records with 440 fields to change to 490 ind1=1/830 pairs-->
             <xsl:for-each select="datafield[@tag = '440']">
                 <!-- Batch is global variable -->
                 <xsl:variable name="flag">
