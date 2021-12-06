@@ -387,6 +387,7 @@
 
             <!-- Check 245 ind2 for English articles -->
             <xsl:for-each select="datafield[@tag = '245'][@ind = '2']">
+                <xsl:variable name="titleA" select="subfield[@code = 'a']"/>
                 <xsl:variable name="titleInd2" select="@ind2"/>
                 <xsl:choose>
                     <xsl:when
