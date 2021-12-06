@@ -185,6 +185,19 @@
 
             <!-- CallNo: Records with no call numbers or have call number without Cutter number -->
             <xsl:for-each select="datafield[@tag = '050']">
+                <xsl:variable name="call050">
+                    <xsl:value-of select="subfield[@code = 'a']"/>
+                </xsl:variable>
+                <xsl:variable name="call090">
+                    <xsl:value-of select="subfield[@code = 'a']"/>
+                </xsl:variable>
+                <xsl:variable name="call050B">
+                    <xsl:value-of select="subfield[@code = 'b']"/>
+                </xsl:variable>
+                <xsl:variable name="call090B">
+                    <xsl:value-of select="subfield[@code = 'b']"/>
+                </xsl:variable>
+            <xsl:for-each select="datafield[@tag = '050']">
                 <xsl:choose>
                     <xsl:when
                         test="
