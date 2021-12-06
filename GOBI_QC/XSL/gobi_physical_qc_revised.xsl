@@ -542,7 +542,7 @@
                 <xsl:choose>
                     <xsl:when test="
                             @ind1 != '0'
-                            and contains(/subfield[@code = 'a'], ' / ')
+                            and contains(subfield[@code = 'a'], ' / ')
                             ">
                         <!-- Batch is global variable -->
                         <xsl:variable name="flag">
