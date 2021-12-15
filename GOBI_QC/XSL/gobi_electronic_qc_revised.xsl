@@ -739,60 +739,6 @@
                     select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
                 />
             </xsl:for-each>
-
-            <!-- NonPrint: Generates checklist of possible non-print records -->
-            <xsl:choose>
-                <xsl:when
-                    test="
-                        not(datafield[@tag = '300']/subfield[@code = 'e'])
-                        and
-                        ($titleH
-                        or starts-with($characteristics, 'c')
-                        or starts-with($characteristics, 'd')
-                        or starts-with($characteristics, 'o')
-                        or starts-with($characteristics, 'a')
-                        or starts-with($characteristics, 'h')
-                        or starts-with($characteristics, 'm')
-                        or starts-with($characteristics, 'k')
-                        or starts-with($characteristics, 'q')
-                        or starts-with($characteristics, 'g')
-                        or starts-with($characteristics, 'r')
-                        or starts-with($characteristics, 's')
-                        or starts-with($characteristics, 'f')
-                        or starts-with($characteristics, 'z')
-                        or starts-with($characteristics, 'v')
-                        or $rdaMediaA != 'unmediated'
-                        or $rdaMediaB != 'n'
-                        or $rdaCarrierA != 'volume'
-                        or $rdaCarrierB != 'nc'
-                        or $form = 'a'
-                        or $form = 'b'
-                        or $form = 'c'
-                        or $form = 'd'
-                        or $form = 'f'
-                        or $form = 'o'
-                        or $form = 'q'
-                        or $form = 's')
-                        ">
-                    <!-- Batch is global variable -->
-                    <xsl:variable name="flag">
-                        <xsl:value-of select="'CHECK-NonPrint'"/>
-                    </xsl:variable>
-                    <xsl:variable name="this_oclc">
-                        <xsl:value-of select="$oclc"/>
-                    </xsl:variable>
-                    <xsl:variable name="this_title">
-                        <xsl:value-of select="datafield[@tag = '245']/*"/>
-                    </xsl:variable>
-                    <xsl:variable name="details">
-                        <xsl:value-of select="'Check Bib record'"/>
-                    </xsl:variable>
-                    <xsl:value-of
-                        select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
-                    />
-                </xsl:when>
-                <xsl:otherwise/>
-            </xsl:choose>
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
