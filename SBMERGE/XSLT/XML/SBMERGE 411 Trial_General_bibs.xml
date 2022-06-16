@@ -1,0 +1,2769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+    <record>
+        <leader>00000cam 2200289 4500</leader>
+        <controlfield tag="001">990204628170306576</controlfield>
+        <controlfield tag="005">20100222124132.0</controlfield>
+        <controlfield tag="008">710512s1971 mauab 000|0 engm </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 76095917 //r822</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0674089650</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)020462817UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)00138521</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910461667706561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990204628170306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">m.c.</subfield>
+        </datafield>
+        <datafield tag="043" ind1=" " ind2=" ">
+            <subfield code="a">a-tu---</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">CJ1281</subfield>
+            <subfield code="b">.B36</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">CJ1281</subfield>
+            <subfield code="b">.B36 1971</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">737.49/495</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">fCJ1281</subfield>
+            <subfield code="b">.B36</subfield>
+        </datafield>
+        <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Bates, George Eugene.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Byzantine coins</subfield>
+            <subfield code="c">[by] George E. Bates.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Cambridge,</subfield>
+            <subfield code="b">Harvard University Press,</subfield>
+            <subfield code="c">1971.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">x, 159 p.</subfield>
+            <subfield code="b">illus., maps.</subfield>
+            <subfield code="c">29 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">Archaeological Exploration of Sardis</subfield>
+            <subfield code="d">(1958- ).</subfield>
+            <subfield code="t">Monograph</subfield>
+            <subfield code="v">1</subfield>
+            <subfield code="5">FTaFA</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Monograph (Archaeological Exploration of Sardis (1958- ))</subfield>
+            <subfield code="v">1</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Archaeological Exploration of Sardis (1958- ). Monograph</subfield>
+            <subfield code="v">1</subfield>
+            <subfield code="5">FFmFGC</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FMFIU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Archaeological Exploration of Sardis monograph</subfield>
+            <subfield code="v">1</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Coins, Byzantine.</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="0">
+            <subfield code="a">Sardis</subfield>
+            <subfield code="x">Antiquities.</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="0">
+            <subfield code="a">Sardis (Extinct city)</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">Monograph (Archaeological Exploration of Sardis (1958- ))
+                ;</subfield>
+            <subfield code="v">1.</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">Monograph (Archaeological Exploration of Sardis (Program))
+                ;</subfield>
+            <subfield code="v">1.</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">020462817</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> nam 2200349 4500</leader>
+        <controlfield tag="001">990207013090306576</controlfield>
+        <controlfield tag="005">20080917132638.0</controlfield>
+        <controlfield tag="008">711102s1971 nyua b 101|0 engm </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 72029396</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0815650299</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)020701309UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)00205005</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910692885306561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990207013090306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FTU</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">UF526.3</subfield>
+            <subfield code="b">.S3 1970</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">UF526.3</subfield>
+            <subfield code="b">.S3 no. 17</subfield>
+            <subfield code="a">TA404.8</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">TA404.8</subfield>
+            <subfield code="b">.S3 1970</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">620.1/1 s</subfield>
+            <subfield code="a">620.1/1248</subfield>
+            <subfield code="2">19</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">620.1/1248</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">TA404.8</subfield>
+            <subfield code="b">.S3</subfield>
+        </datafield>
+        <datafield tag="092" ind1=" " ind2=" ">
+            <subfield code="a">623.4072</subfield>
+            <subfield code="b">S129, 17th, 1970</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference</subfield>
+            <subfield code="n">(17th :</subfield>
+            <subfield code="d">1970 :</subfield>
+            <subfield code="c">Raquette Lake, N.Y.)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Shock waves and the mechanical properties of solids;</subfield>
+            <subfield code="b">proceedings.</subfield>
+            <subfield code="c">Editors: John J. Burke [and] Volker Weiss.</subfield>
+        </datafield>
+        <datafield tag="250" ind1=" " ind2=" ">
+            <subfield code="a">[1st ed.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Syracuse, N.Y.]</subfield>
+            <subfield code="b">Syracuse University Press</subfield>
+            <subfield code="c">[1971]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">417 p.</subfield>
+            <subfield code="b">illus.</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">Sagamore Army Materials Research Conference.</subfield>
+            <subfield code="t">Sagamore Army Materials Research Conference proceedings,</subfield>
+            <subfield code="v">17</subfield>
+            <subfield code="5">FBoU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference. Proceedings,</subfield>
+            <subfield code="v">17</subfield>
+            <subfield code="5">FPeU</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference proceedings / Sagamore
+                Army Materials Research Conference ;</subfield>
+            <subfield code="v">17th</subfield>
+            <subfield code="5">FOFT</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference.</subfield>
+            <subfield code="a">Sagamore Army Materials Research Conference proceedings,</subfield>
+            <subfield code="v">17</subfield>
+            <subfield code="5">FMFIU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references and index.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Shock waves</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Materials</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Weiss, Volker,</subfield>
+            <subfield code="d">1930-</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Burke, John J.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Burke, John J.,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Weiss, Volker,</subfield>
+            <subfield code="d">1930-</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference.</subfield>
+            <subfield code="t">Sagamore Army Materials Research Conference proceedings,</subfield>
+            <subfield code="v">17th.</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">Sagamore Army Materials Research Conference proceedings ;</subfield>
+            <subfield code="v">17th.</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">020701309</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> nam 2200289I 4500</leader>
+        <controlfield tag="001">990208057190306576</controlfield>
+        <controlfield tag="005">20080910120130.0</controlfield>
+        <controlfield tag="008">720208s1960 njua b 001 0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 60006680</subfield>
+        </datafield>
+        <datafield tag="015" ind1=" " ind2=" ">
+            <subfield code="a">GB61-12514</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)020805719UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)00236486</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910473811406561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990208057190306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="c">WSU</subfield>
+            <subfield code="d">FTU</subfield>
+        </datafield>
+        <datafield tag="043" ind1=" " ind2=" ">
+            <subfield code="a">n-us---</subfield>
+            <subfield code="a">n-cn---</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">HC106.3</subfield>
+            <subfield code="b">.C714 v. 24</subfield>
+        </datafield>
+        <datafield tag="082" ind1=" " ind2=" ">
+            <subfield code="a">330.973</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">HC106.3</subfield>
+            <subfield code="b">.C714 v.24</subfield>
+        </datafield>
+        <datafield tag="092" ind1=" " ind2=" ">
+            <subfield code="a">330.973</subfield>
+            <subfield code="b">C748s, v.24</subfield>
+        </datafield>
+        <datafield tag="099" ind1=" " ind2=" ">
+            <subfield code="a">339.2</subfield>
+            <subfield code="a">C748s v.24</subfield>
+        </datafield>
+        <datafield tag="110" ind1="2" ind2=" ">
+            <subfield code="a">Conference on Research in Income and Wealth.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Trends in the American economy in the nineteenth century.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Princeton, N.J.,</subfield>
+            <subfield code="b">Princeton University Press,</subfield>
+            <subfield code="c">1960.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">780 p.</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Studies in income and wealth,</subfield>
+            <subfield code="v">v. 24</subfield>
+            <subfield code="5">FBoU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Studies in income and wealth ;</subfield>
+            <subfield code="v">v. 24</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Its Studies in income and wealth ;</subfield>
+            <subfield code="v">v. 24</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">"Contains most of the papers presented at the joint sessions of the
+                Economic History Association and the Conference on Research in Income and Wealth
+                held in Williamstown, Massacusetss, in September 1957."</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references and index.</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="0">
+            <subfield code="a">Canada</subfield>
+            <subfield code="x">Economic conditions.</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="0">
+            <subfield code="a">United States</subfield>
+            <subfield code="x">Economic conditions.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">National Bureau of Economic Research.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Economic History Association (U.S.)</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">International Economic History Association.</subfield>
+        </datafield>
+        <datafield tag="810" ind1="2" ind2=" ">
+            <subfield code="a">Conference on Research in Income and Wealth.</subfield>
+            <subfield code="t">Studies in income and wealth ;</subfield>
+            <subfield code="v">v. 24.</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">Studies in income and wealth,</subfield>
+            <subfield code="v">v. 24.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">020805719</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> pam 2200301 4500</leader>
+        <controlfield tag="001">990208982570306576</controlfield>
+        <controlfield tag="005">20100629155419.0</controlfield>
+        <controlfield tag="008">740731s1974 maua b 101|0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 74014827</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0669957291</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)020898257UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2="9">
+            <subfield code="a">(OCoLC)01008189</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910001464206561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990208982570306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FTU</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973 v. 1</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">364 s</subfield>
+            <subfield code="a">364</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973, v.1</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology</subfield>
+            <subfield code="n">(1st :</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Theoretical issues in victimology,</subfield>
+            <subfield code="c">edited by Israel Drapkin and Emilio Viano.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Lexington, Mass.,</subfield>
+            <subfield code="b">Lexington Books</subfield>
+            <subfield code="c">[1974]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xvii, 217 p.</subfield>
+            <subfield code="b">illus.</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Victimology: a new focus ;</subfield>
+            <subfield code="v">v. 1</subfield>
+            <subfield code="5">FPeU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Victimology: a new focus ;</subfield>
+            <subfield code="v">v. 1</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Its Victimology: a new focus, v. 1</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Includes primarily papers presented at the symposium.</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FPeU</subfield>
+            <subfield code="5">FOFT</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Victims of crimes</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio,</subfield>
+            <subfield code="e">jt. ed.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology.</subfield>
+            <subfield code="t">Victimology, a new focus ;</subfield>
+            <subfield code="v">1.</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">020898257</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>01060cam 2200313 4500</leader>
+        <controlfield tag="001">990208982950306576</controlfield>
+        <controlfield tag="005">20100726121458.0</controlfield>
+        <controlfield tag="008">740729s1974 mau b 101|0 engm </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 74014828</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0669957372</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)020898295UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2="9">
+            <subfield code="a">(OCoLC)01008190</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910001429806561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990208982950306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FUB</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973 v. 2</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">364 s</subfield>
+            <subfield code="a">364</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973, v.2</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology</subfield>
+            <subfield code="n">(1st :</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem).</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Society's reaction to victimization,</subfield>
+            <subfield code="c">edited by Israel Drapkin and Emilio Viano.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Lexington, Mass.,</subfield>
+            <subfield code="b">Lexington Books,</subfield>
+            <subfield code="c">1974.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xvii, 240 p.</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Victimology; a new focus,</subfield>
+            <subfield code="v">v. 2</subfield>
+            <subfield code="5">FMFIU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Victimology: a new focus,</subfield>
+            <subfield code="v">v. 2</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Its Victimology; a new focus, v. 2</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FTS</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Victimology a new focus ;</subfield>
+            <subfield code="v">v. 2</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Includes primarily papers presented at the symposium.</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FPeU</subfield>
+            <subfield code="5">FOFT</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTS</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Victims of crimes</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Reparation (Criminal law)</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Reparation</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Reparation (Criminal justice)</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology.</subfield>
+            <subfield code="t">Victimology, a new focus ;</subfield>
+            <subfield code="v">2.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology.</subfield>
+            <subfield code="n">(1st :</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem)</subfield>
+            <subfield code="t">Victimology, a new focus ;</subfield>
+            <subfield code="v">2.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology</subfield>
+            <subfield code="n">(1st :</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem).</subfield>
+            <subfield code="t">Victimology a new focus ;</subfield>
+            <subfield code="v">v. 2.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">020898295</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> cam 2200313 4500</leader>
+        <controlfield tag="001">990208983210306576</controlfield>
+        <controlfield tag="005">20100726130609.0</controlfield>
+        <controlfield tag="008">740729s1975 mau b 101|0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 74014829</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0669957453</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)020898321UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2="9">
+            <subfield code="a">(OCoLC)01008191</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910001450706561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990208983210306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FTU</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973 vol. 3</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">364 s</subfield>
+            <subfield code="a">364</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973, v.3</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology</subfield>
+            <subfield code="n">(1st :</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Crimes, victims, and justice,</subfield>
+            <subfield code="c">edited by Israel Drapkin and Emilio Viano.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Lexington, Mass.,</subfield>
+            <subfield code="b">Lexington Books</subfield>
+            <subfield code="c">[1975]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xvii, 234 p. ;</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Victimology: a new focus ;</subfield>
+            <subfield code="v">v. 3</subfield>
+            <subfield code="5">FPeU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Victimology: a new focus ;</subfield>
+            <subfield code="v">v. 3</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Its Victimology: a new focus, v. 3</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTS</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Includes primarily papers presented at the symposium.</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FPeU</subfield>
+            <subfield code="5">FOFT</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTS</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographies.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Victims of crimes</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Criminal justice, Administration of</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology</subfield>
+            <subfield code="n">(1st :</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem)</subfield>
+            <subfield code="t">Victimology: a new focus ;</subfield>
+            <subfield code="v">v. 3</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">020898321</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> pam 2200325 4500</leader>
+        <controlfield tag="001">990208983640306576</controlfield>
+        <controlfield tag="005">20100629155434.0</controlfield>
+        <controlfield tag="008">740729s1974 mau 101|0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 74014831</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0669957607</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)020898364UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2="9">
+            <subfield code="a">(OCoLC)01008192</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910001480906561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990208983640306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FTU</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973 v. 5</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">364 s</subfield>
+            <subfield code="a">364</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973, v.5</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology</subfield>
+            <subfield code="n">(1st :</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Exploiters and exploited:</subfield>
+            <subfield code="b">the dynamics of victimization,</subfield>
+            <subfield code="c">edited by Israel Drapkin [and] Emilio Viano.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Lexington, Mass.,</subfield>
+            <subfield code="b">Lexington Books</subfield>
+            <subfield code="c">[1974]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xxi, 204 p. ;</subfield>
+            <subfield code="c">23 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Victimology: a new focus ;</subfield>
+            <subfield code="v">v. 5</subfield>
+            <subfield code="5">FPeU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Victimology: a new focus ;</subfield>
+            <subfield code="v">v. 5</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Its Victimology: a new focus, v. 5</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTS</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Includes primarily papers presented at the symposium.</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FPeU</subfield>
+            <subfield code="5">FOFT</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTS</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Victims of crimes</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Crime</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Criminals</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Crime.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Victims of crimes.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio,</subfield>
+            <subfield code="e">jt. ed.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology</subfield>
+            <subfield code="n">(1st :</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem)</subfield>
+            <subfield code="t">Victimology: a new focus,</subfield>
+            <subfield code="v">v. 5</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">020898364</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+
+    <record>
+        <leader> pam 2200289 a 4500</leader>
+        <controlfield tag="001">990219012550306576</controlfield>
+        <controlfield tag="008">820729s1982 dcu b 100|0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 82040207</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0819127116 :</subfield>
+            <subfield code="c">$18.75</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0819127124 (pbk.) :</subfield>
+            <subfield code="c">$7.75</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)021901255UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)08709243</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910429658106561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990219012550306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FHC</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">PN1721</subfield>
+            <subfield code="b">.A44 1982</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">PN1721</subfield>
+            <subfield code="b">.U5 1981</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">809.2</subfield>
+            <subfield code="2">19</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">University of Florida Department of Classics Comparative Drama
+                Conference</subfield>
+            <subfield code="d">(1981)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="0" ind2="0">
+            <subfield code="a">All the world-- :</subfield>
+            <subfield code="b">drama past and present /</subfield>
+            <subfield code="c">edited by Karelisa V. Hartigan.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Washington, D.C. :</subfield>
+            <subfield code="b">University Press of America,</subfield>
+            <subfield code="c">c1982.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">viii, 140 p. ;</subfield>
+            <subfield code="c">22 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">University of Florida Department of Classics Comparative Drama
+                Conference.</subfield>
+            <subfield code="t">University of Florida Department of Classics Comparative Drama
+                Conference papers ;</subfield>
+            <subfield code="v">v. 2</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="4">
+            <subfield code="a">The University of Florida Department of Classics comparative drama
+                conference papers ;</subfield>
+            <subfield code="v">v. 2</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">The University of Florida Department of Classics comparative drama
+                conference papers ;</subfield>
+            <subfield code="v">v. 2</subfield>
+            <subfield code="5">FPeU</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Drama</subfield>
+            <subfield code="x">History and criticism</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Hartigan, Karelisa.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">University of Florida.</subfield>
+            <subfield code="b">Dept. of Classics.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">University of Florida Department of Classics Comparative Drama
+                Conference.</subfield>
+            <subfield code="t">University of Florida Department of Classics Comparative Drama
+                Conference papers ;</subfield>
+            <subfield code="v">v. 2.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">021901255</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> nam 22003611 4500</leader>
+        <controlfield tag="001">990219161740306576</controlfield>
+        <controlfield tag="008">731207s1968 ne b 100|0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 67028649</subfield>
+        </datafield>
+        <datafield tag="015" ind1=" " ind2=" ">
+            <subfield code="a">Ne***</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)021916174UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)00525806</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910919509606561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990219161740306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FXG</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">Q175</subfield>
+            <subfield code="b">.I518 1965</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">501</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">Q175</subfield>
+            <subfield code="b">.I518 1965</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Colloquium in the Philosophy of Science</subfield>
+            <subfield code="d">(1965 :</subfield>
+            <subfield code="c">Bedford College)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Problems in the philosophy of science.</subfield>
+            <subfield code="c">Edited by Imre Lakatos [and] Alan Musgrave.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Amsterdam,</subfield>
+            <subfield code="b">North-Holland Pub. Co.,</subfield>
+            <subfield code="c">1968.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">ix, 448 p.</subfield>
+            <subfield code="c">23 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">International Colloquium in the Philosophy of Science</subfield>
+            <subfield code="d">(1965 :</subfield>
+            <subfield code="c">Bedford College)</subfield>
+            <subfield code="t">Proceedings,</subfield>
+            <subfield code="v">v. 3</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Proceedings,</subfield>
+            <subfield code="v">v.3</subfield>
+            <subfield code="5">FMFIU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Studies in logic and the foundations of mathematics</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Its Proceedings, v. 3</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Studies in logic and the foundations of mathematics.</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">"Organized jointly by the British Society for the Philosophy of
+                Science and the London School of Economics and Political Science, under the auspices
+                of the Division of Logic, Methodology, and Philosophy of Science of the
+                International Union of History and Philosophy of Science."</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Bibliographical footnotes.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Science</subfield>
+            <subfield code="x">Philosophy</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Lakatos, Imre,</subfield>
+            <subfield code="d">1922-1974.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Musgrave, Alan.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Lakatos, Imre,</subfield>
+            <subfield code="d">1922-1974.</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Musgrave, Alan,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Bedford College.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">International Union of the History and Philosophy of
+                Science.</subfield>
+            <subfield code="b">Division of Logic, Methodology and Philosophy of Science.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">London School of Economics and Political Science.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">British Society for the Philosophy of Science.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">International Colloquium in the Philosophy of Science</subfield>
+            <subfield code="d">(1965 :</subfield>
+            <subfield code="c">Bedford College)</subfield>
+            <subfield code="t">Proceedings ;</subfield>
+            <subfield code="v">v. 3.</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">021916174</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>00000nam 2200313 4500</leader>
+        <controlfield tag="001">990224965940306576</controlfield>
+        <controlfield tag="005">20101202145400.0</controlfield>
+        <controlfield tag="008">740613s1974 vaua b 100|0 engm </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 73094003</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0813905699</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)022496594UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)00959985</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910562387106561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990224965940306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FDA</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">T19</subfield>
+            <subfield code="b">.W77 1973</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">609</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">T19</subfield>
+            <subfield code="b">.W77 1973</subfield>
+        </datafield>
+        <datafield tag="092" ind1=" " ind2=" ">
+            <subfield code="a">609</subfield>
+            <subfield code="b">W788t</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">Winterthur Conference,</subfield>
+            <subfield code="n">19th,</subfield>
+            <subfield code="d">1973.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Technological innovation and the decorative arts.</subfield>
+            <subfield code="c">Edited by Ian M. G. Quimby and Polly Anne Earl.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Charlottesville,</subfield>
+            <subfield code="b">Published for the Henry Francis du Pont Winterthur Museum [by]
+                University Press of Virginia</subfield>
+            <subfield code="c">[1974]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xiv, 373 p.</subfield>
+            <subfield code="b">illus.</subfield>
+            <subfield code="c">23 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">Winterthur Conference.</subfield>
+            <subfield code="t">Report, 1973</subfield>
+            <subfield code="5">FBoU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Winterthur Conference report ;</subfield>
+            <subfield code="v">1973</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Winterthur Conference. Report</subfield>
+            <subfield code="v">1973</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Report, 1973</subfield>
+            <subfield code="5">FJUNF</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Winterthur Conference. Report 1973</subfield>
+            <subfield code="5">FPeU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Industrial arts</subfield>
+            <subfield code="x">History</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Decorative arts</subfield>
+            <subfield code="x">History</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Decoration and ornament</subfield>
+            <subfield code="x">History</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Quimby, Ian M. G.,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Earl, Polly Anne,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Earl, Polly Anne.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Quimby, Ian M. G.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Henry Francis du Pont Winterthur Museum.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">Winterthur Conference on Museum Operation and
+                Connoisseurship.</subfield>
+            <subfield code="t">Report, 1973</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">Winterthur Conference.</subfield>
+            <subfield code="t">Report</subfield>
+            <subfield code="v">1973.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">Winterthur Conference.</subfield>
+            <subfield code="t">Report 1973</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">Winterthur Conference report,</subfield>
+            <subfield code="v">1973.</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">022496594</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> pam 2200349 4500</leader>
+        <controlfield tag="001">990225508370306576</controlfield>
+        <controlfield tag="005">20100726130603.0</controlfield>
+        <controlfield tag="008">740729s1975 mau b 101|0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 74014830</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0669957526</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)022550837UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)00995206</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910064619606561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990225508370306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FTU</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973 vol. 4</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">364 s</subfield>
+            <subfield code="a">364</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">HV6030</subfield>
+            <subfield code="b">.I54 1973, v.4</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology</subfield>
+            <subfield code="n">(1st :</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Violence and its victims,</subfield>
+            <subfield code="c">edited by Israel Drapkin and Emilio Viano.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Lexington, Mass.,</subfield>
+            <subfield code="b">Lexington Books</subfield>
+            <subfield code="c">[1975]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xx, 208 p. ;</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Victimology: a new focus ;</subfield>
+            <subfield code="v">v. 4</subfield>
+            <subfield code="5">FPeU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Victimology: a new focus ;</subfield>
+            <subfield code="v">v. 4</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Its Victimology: a new focus, v. 4</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTS</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Includes primarily papers presented at the symposium.</subfield>
+            <subfield code="5">FPeU</subfield>
+            <subfield code="5">FOFT</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FTS</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Criminals.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Violence.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Crime.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Victims of crimes.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Victims of crimes</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Crime</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Violence</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Criminals</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio,</subfield>
+            <subfield code="e">jt. ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Drapkin, Israel,</subfield>
+            <subfield code="d">1905-</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Viano, Emilio.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">International Symposium on Victimology (</subfield>
+            <subfield code="n">1st ;</subfield>
+            <subfield code="d">1973 :</subfield>
+            <subfield code="c">Jerusalem)</subfield>
+            <subfield code="t">Victimology, a new focus ;</subfield>
+            <subfield code="v">4.</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">022550837</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>00000nam 2200337I 4500</leader>
+        <controlfield tag="001">990227247880306576</controlfield>
+        <controlfield tag="005">20100319161516.0</controlfield>
+        <controlfield tag="008">741113|1970||||xx 100|0 engmu</controlfield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0815650264</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)022724788UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)01074307</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910762308706561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990227247880306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="c">SYB</subfield>
+            <subfield code="d">m.c.</subfield>
+            <subfield code="d">FDA</subfield>
+        </datafield>
+        <datafield tag="050" ind1=" " ind2=" ">
+            <subfield code="a">UF526.3</subfield>
+            <subfield code="b">S3 no. 15</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">T178</subfield>
+            <subfield code="b">.S2 v.15, 1968</subfield>
+            <subfield code="a">UF526.3.S3</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">UF526.3</subfield>
+            <subfield code="b">.S3 1968</subfield>
+        </datafield>
+        <datafield tag="092" ind1=" " ind2=" ">
+            <subfield code="a">623.4072</subfield>
+            <subfield code="b">S129, 15th, 1968</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference</subfield>
+            <subfield code="n">(15th :</subfield>
+            <subfield code="d">1968 :</subfield>
+            <subfield code="c">Raquette Lake, N. Y.)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Ultrafine-grain ceramics;</subfield>
+            <subfield code="b">proceedings.</subfield>
+            <subfield code="c">Editors: John J.Burke, Norman L.Reed [and] Volker Weiss.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">[Syracuse, N.Y.]</subfield>
+            <subfield code="b">Syracuse University Press</subfield>
+            <subfield code="c">[1970]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">x, 406p.</subfield>
+            <subfield code="b">illus.</subfield>
+            <subfield code="c">24cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">Sagamore Army Materials Research Conference.</subfield>
+            <subfield code="t">Sagamore Army Materials Research Conference proceedings,</subfield>
+            <subfield code="v">15</subfield>
+            <subfield code="5">FBoU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference proceedings / Sagamore
+                Army Materials Research Conference ;</subfield>
+            <subfield code="v">15th</subfield>
+            <subfield code="5">FOFT</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference. Proceedings,</subfield>
+            <subfield code="v">15</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">"Sponsored by Army Materials and Mechanics Research Center,
+                Watertown, Mass., in cooperation with Syracuse University."</subfield>
+            <subfield code="5">FOFT</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">"Sponsored by Army Materials and Mechanics Research Center,
+                Watertwon, Mass., in cooperation with Syracuse University."</subfield>
+            <subfield code="5">FBoU</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Ceramics</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Burke, John J.,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Reed, Norman L.,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Weiss, Volker,</subfield>
+            <subfield code="d">1930-</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Weiss, Volker,</subfield>
+            <subfield code="d">1930-</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Reed, Norman L.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Burke, John J.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Army Materials and Mechanics Research Center (U.S.)</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Syracuse University.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference.</subfield>
+            <subfield code="t">Sagamore Army Materials Research Conference proceedings ;</subfield>
+            <subfield code="v">15th.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">022724788</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>01414nam 22003251 4500</leader>
+        <controlfield tag="001">990228355360306576</controlfield>
+        <controlfield tag="005">20101007154123.0</controlfield>
+        <controlfield tag="008">740610s1967 ne b 100|0 engm </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 67020007</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)022835536UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)00526300</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910334734606561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990228355360306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">m.c.</subfield>
+            <subfield code="d">FUG</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">QA9</subfield>
+            <subfield code="b">.I53 1965</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">510/.01</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">QA9</subfield>
+            <subfield code="b">.I53 1965</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Colloquium in the Philosophy of Science</subfield>
+            <subfield code="d">(1965 :</subfield>
+            <subfield code="c">Bedford College)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Problems in the philosophy of mathematics.</subfield>
+            <subfield code="c">Edited by Imre Lakatos.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Amsterdam,</subfield>
+            <subfield code="b">North-Holland Pub. Co.,</subfield>
+            <subfield code="c">1967.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xv, 241 p.</subfield>
+            <subfield code="c">23 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">International Colloquium in the Philosophy of Science</subfield>
+            <subfield code="d">(1965 :</subfield>
+            <subfield code="c">Bedford College)</subfield>
+            <subfield code="t">Proceedings,</subfield>
+            <subfield code="v">v. 1</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Studies in logic and the foundations of mathematics</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Its Proceedings,</subfield>
+            <subfield code="v">v. 1</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">"Organized jointly by the British Society for the Philosophy of
+                Science and the London School of Economics and Political Science, under the auspices
+                of the Division of Logic, Methodology, and Philosophy of Science of the
+                International Union of the History and Philosophy of Science."</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">"Organized jointly by the British Society for the Philosophy of
+                Science and the London School of Economics and Political Science, under the auspices
+                of the Division of Logic, Methodology, and Philosophy of Science of the
+                International Union of [the] Histo,y and Philosophy of Science."</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographies.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Mathematics</subfield>
+            <subfield code="x">Philosophy</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Lakatos, Imre,</subfield>
+            <subfield code="d">1922-1974.</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Bedford College.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">British Society for the Philosophy of Science.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">International Colloquium in the Philosophy of Science</subfield>
+            <subfield code="d">(1965 :</subfield>
+            <subfield code="c">Bedford College)</subfield>
+            <subfield code="t">Proceedings ;</subfield>
+            <subfield code="v">v. 1.</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">022835536</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>00000nam 2200337I 4500</leader>
+        <controlfield tag="001">990228440960306576</controlfield>
+        <controlfield tag="005">20100319161611.0</controlfield>
+        <controlfield tag="008">741113s1970 nyua b 000|0 eng u</controlfield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0815650272</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)022844096UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)01074334</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910661325206561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990228440960306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="c">SYB</subfield>
+            <subfield code="d">m.c.</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">UF526.3</subfield>
+            <subfield code="b">.S3 1969</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">TA459</subfield>
+            <subfield code="b">.S25 1969</subfield>
+        </datafield>
+        <datafield tag="092" ind1=" " ind2=" ">
+            <subfield code="a">623.4072</subfield>
+            <subfield code="b">S129, 1969</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference</subfield>
+            <subfield code="n">(16th :</subfield>
+            <subfield code="d">1969 :</subfield>
+            <subfield code="c">Raquette Lake, N. Y.)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Ultrafine-grain metals;</subfield>
+            <subfield code="b">proceedings.</subfield>
+            <subfield code="c">Editors: John J.Burke [and] Volker Weiss.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">[Syracuse, N.Y.]</subfield>
+            <subfield code="b">Syracuse University Press</subfield>
+            <subfield code="c">[1970]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">x, 432p.</subfield>
+            <subfield code="b">illus.</subfield>
+            <subfield code="c">24cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">Sagamore Army Materials Research Conference.</subfield>
+            <subfield code="t">Sagamore Army Materials Research Conference proceedings,</subfield>
+            <subfield code="v">16</subfield>
+            <subfield code="5">FBoU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference.</subfield>
+            <subfield code="a">Sagamore Army Materials Research Conference proceedings,</subfield>
+            <subfield code="v">16</subfield>
+            <subfield code="5">FMFIU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference. Proceedings,</subfield>
+            <subfield code="v">16</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Sponsored by Army Materials and Mechanics Research Center, Watertown,
+                Mass., in cooperation with Syracuse University.</subfield>
+            <subfield code="5">FMFIU</subfield>
+            <subfield code="5">FJUNF</subfield>
+            <subfield code="5">FBoU</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references and index.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Metals</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Metallurgy</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Weiss, Volker.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Weiss, Volker,</subfield>
+            <subfield code="d">1930-</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Burke, John J.,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Weiss, Volker,</subfield>
+            <subfield code="e">ed.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Burke, John J.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="1" ind2=" ">
+            <subfield code="a">Army Materials and Mechanics Research Center (U.S.)</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Syracuse University.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">Sagamore Army Materials Research Conference.</subfield>
+            <subfield code="t">Sagamore Army Materials Research Conference proceedings,</subfield>
+            <subfield code="v">16th.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">022844096</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>00000cam 2200253I 4500</leader>
+        <controlfield tag="001">990232684330306576</controlfield>
+        <controlfield tag="008">751208s1937 nyubed 000 0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 37015898</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)023268433UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)01882444</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910138508706561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990232684330306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">FQG</subfield>
+            <subfield code="d">OCL</subfield>
+            <subfield code="d">m.c.</subfield>
+            <subfield code="d">FWA</subfield>
+        </datafield>
+        <datafield tag="043" ind1=" " ind2=" ">
+            <subfield code="a">n-us---</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">HC106.3</subfield>
+            <subfield code="b">.N265</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">339.20973</subfield>
+        </datafield>
+        <datafield tag="092" ind1=" " ind2=" ">
+            <subfield code="a">339.2</subfield>
+            <subfield code="b">N277i</subfield>
+        </datafield>
+        <datafield tag="092" ind1=" " ind2=" ">
+            <subfield code="a">331.2</subfield>
+            <subfield code="b">National</subfield>
+        </datafield>
+        <datafield tag="110" ind1="2" ind2=" ">
+            <subfield code="a">National Industrial Conference Board.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Income received in the various states, 1929-1935,</subfield>
+            <subfield code="c">by John A. Slaughter, Conference board research staff.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">New York City,</subfield>
+            <subfield code="b">National Industrial Conference Board, inc.</subfield>
+            <subfield code="c">[c1937]</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xv p. 1 1., 167 p.</subfield>
+            <subfield code="b">incl. illus. (maps) tables, diagrs.</subfield>
+            <subfield code="c">24 cm</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Studies,</subfield>
+            <subfield code="v">no. 234.</subfield>
+            <subfield code="5">FPeU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Its Studies, no. 234.</subfield>
+            <subfield code="5">FJUNF</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Income.</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="0">
+            <subfield code="a">United States</subfield>
+            <subfield code="x">Economic conditions</subfield>
+            <subfield code="y">1918-</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="0">
+            <subfield code="a">United States</subfield>
+            <subfield code="x">Economic conditions</subfield>
+            <subfield code="y">1918-1945.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Slaughter, John A.</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">National Industrial Conference Board studies ;</subfield>
+            <subfield code="v">no. 234.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">023268433</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> cam a2200217I 45e0</leader>
+        <controlfield tag="001">990234019980306576</controlfield>
+        <controlfield tag="005">20210205141610.0</controlfield>
+        <controlfield tag="008">730425s1958 njua 000|0 eng u</controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a">63047260</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)023401998UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)00610703</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910749623606561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990234019980306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">KSU</subfield>
+            <subfield code="d">OCL</subfield>
+            <subfield code="d">SER</subfield>
+            <subfield code="d">FSJ</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">NK3840</subfield>
+            <subfield code="b">.A5</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">NK3840</subfield>
+            <subfield code="b">.A5</subfield>
+        </datafield>
+        <datafield tag="110" ind1="2" ind2=" ">
+            <subfield code="a">American School of Classical Studies at Athens.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Pots and pans of classical Athens.</subfield>
+            <subfield code="c">[Prepared by Brian A. Sparkes and Lucy Talcott]</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Princeton, N.J.,</subfield>
+            <subfield code="c">1958.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">[32] p.</subfield>
+            <subfield code="b">illus.</subfield>
+            <subfield code="c">22 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">Excavations of the Athenian Agora.</subfield>
+            <subfield code="t">Picture book</subfield>
+            <subfield code="v">no. 1</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">American School of Classical Studies at Athens. Excavations of the
+                Athenian Agora. Picture book,</subfield>
+            <subfield code="v">no. 1</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Pottery</subfield>
+            <subfield code="z">Athens.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Kitchen utensils</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Pottery</subfield>
+            <subfield code="z">Greece</subfield>
+            <subfield code="z">Athens.</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">Excavations of the Athenian Agora.</subfield>
+            <subfield code="p">Picture book ;</subfield>
+            <subfield code="v">no. 1.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">023401998</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> cam a2200301 45x0</leader>
+        <controlfield tag="001">990247863340306576</controlfield>
+        <controlfield tag="005">20210419075325.0</controlfield>
+        <controlfield tag="008">010925s1963 njuf b 100 0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a">73164482</subfield>
+        </datafield>
+        <datafield tag="019" ind1=" " ind2=" ">
+            <subfield code="a">536039</subfield>
+            <subfield code="a">5281209</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)024786334UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)02722554</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910686436106561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990247863340306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">OCL</subfield>
+            <subfield code="d">FSJ</subfield>
+        </datafield>
+        <datafield tag="041" ind1="0" ind2=" ">
+            <subfield code="a">engfreita</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">N21</subfield>
+            <subfield code="b">.I585 1961 vol. 4</subfield>
+            <subfield code="a">N6447</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2="0">
+            <subfield code="a">709/.03/4</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">N21</subfield>
+            <subfield code="b">I585 1961 v.4</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Congress of the History of Art,</subfield>
+            <subfield code="n">20th,</subfield>
+            <subfield code="c">New York,</subfield>
+            <subfield code="d">1961.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Problems of the 19th &amp; 20th centuries.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Princeton, N.J.,</subfield>
+            <subfield code="b">Princeton University Press,</subfield>
+            <subfield code="c">1963.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">xii, 211 p., 48 plates.</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Studies in Western art,</subfield>
+            <subfield code="v">v. 4</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Acts of the twentieth International Congress of the History of
+                Art</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Studies in Western art,</subfield>
+            <subfield code="v">v. 4</subfield>
+        </datafield>
+        <datafield tag="546" ind1=" " ind2=" ">
+            <subfield code="a">Chiefly in English, some contributions in French or
+                Italian.</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Art, Modern</subfield>
+            <subfield code="y">19th century</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Art, Modern</subfield>
+            <subfield code="y">20th century</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">International Congress of the History of Art.</subfield>
+            <subfield code="t">Acts ;</subfield>
+            <subfield code="v">1961.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">024786334</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader> cam a2200301 45x0</leader>
+        <controlfield tag="001">990247863590306576</controlfield>
+        <controlfield tag="005">20110915101442.0</controlfield>
+        <controlfield tag="008">010925s1963 njuf b 100 0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a">73164481</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)024786359UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)00678271</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910686430006561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990247863590306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">OCL</subfield>
+            <subfield code="d">ZGM</subfield>
+            <subfield code="d">FSJ</subfield>
+        </datafield>
+        <datafield tag="041" ind1="0" ind2=" ">
+            <subfield code="a">engfregerita</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">N21</subfield>
+            <subfield code="b">.I585 1961 vol. 2</subfield>
+            <subfield code="a">N6370</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2="0">
+            <subfield code="a">709/.02/4</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">N21</subfield>
+            <subfield code="b">.I585 1961 v.2</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Congress of the History of Art,</subfield>
+            <subfield code="n">20th,</subfield>
+            <subfield code="c">New York,</subfield>
+            <subfield code="d">1961.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="4">
+            <subfield code="a">The Renaissance and mannerism.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Princeton, N.J.,</subfield>
+            <subfield code="b">Princeton University Press,</subfield>
+            <subfield code="c">1963.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">x, 261 p., 56 plates.</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="1">
+            <subfield code="a">Its</subfield>
+            <subfield code="t">Studies in Western art,</subfield>
+            <subfield code="v">v. 2</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Studies in Western art ;</subfield>
+            <subfield code="v">v. 2</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">Acts of the twentieth International Congress of the History of
+                Art</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Chiefly in English, some contributions in French, German, or
+                Italian.</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="505" ind1="0" ind2=" ">
+            <subfield code="a">The Renaissance abd antiquity. Introduction / André Chastel ; Sources
+                of the Renaissance villa / James S. Ackerman ; The Renaissance concept of nature and
+                antiquity / Jan Bialostocki ; The style all'antica : imitation and assimilation /
+                E.H. Gombrich ; Alberti and Vitruvius / Richard Krautheimer ; Physiognomical theory
+                in Renaissance heroic portraits / Peter Meller ; Le Premier projet pour St.-Pierre
+                de Rome, Bramante et Michel-Ange / Franz Wolff Metternich ; The census of antique
+                works of art known to Renaissance artists / Phyllis Bober ; The revival of antique
+                vault decoration / Juergen Schulz -- Intalian art, 1420-1430. Introduction / Hans
+                Kauffmann ; Nanni di Banco's Assumption of the Virgin on the Porta della Mandorla /
+                H.W. Janson ; Strukturprinzipien der Florentiner Frührenaissance-Architektur :
+                Prospectiva aedificandi / Ludwig H. Heydenreich ; Masaccio and the early Renaissance
+                : the circular plan / Millard Meiss ; Perspective and imagination / Robert Oertel --
+                Recent concepts of mannerism. Introduction : the historiographic background / E.H.
+                Gombrich ; Mannerism and maniera / Craig Hugh Smyth ; Maniera as an aestheic ideal /
+                John Shearman ; Power and the individual in mannerist art / Frederick Hartt ;
+                Mannerism in architecture : changing aspects / Wolfgang Lotz ; Realism as a "side
+                road or byway" in Dutch art / E.K.J. Reznicek ; Discussione sul manierismo /
+                Declecio Redig de Campos.</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Art, Renaissance</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Mannerism (Art)</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">International Congress of the History of Art.</subfield>
+            <subfield code="t">Acts ;</subfield>
+            <subfield code="v">1961.</subfield>
+        </datafield>
+        <datafield tag="830" ind1=" " ind2="0">
+            <subfield code="a">International Congress of the History of Art. Acts,</subfield>
+            <subfield code="v">1961.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">024786359</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>01465cam 2200337 a 4500</leader>
+        <controlfield tag="001">990247954630306576</controlfield>
+        <controlfield tag="005">20071212070554.0</controlfield>
+        <controlfield tag="008">900926s1990 ilua b 101 0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a">90019371</subfield>
+        </datafield>
+        <datafield tag="019" ind1=" " ind2=" ">
+            <subfield code="a">26318275</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0226043843</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">9780226043845</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)024795463UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)22543847</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910405396106561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990247954630306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">UKM</subfield>
+            <subfield code="d">OCL</subfield>
+            <subfield code="d">EL</subfield>
+            <subfield code="a">dMUQ</subfield>
+            <subfield code="d">BAKER</subfield>
+            <subfield code="d">NLGGC</subfield>
+            <subfield code="d">BTCTA</subfield>
+            <subfield code="d">YDXCP</subfield>
+            <subfield code="d">UX0</subfield>
+            <subfield code="d">FHC</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">HC106.3</subfield>
+            <subfield code="b">.C714 vol. 54</subfield>
+            <subfield code="a">HC79.I5</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">HC106.3</subfield>
+            <subfield code="b">.C714 vol. 54</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2="0">
+            <subfield code="a">330 s</subfield>
+            <subfield code="a">330.1/6</subfield>
+            <subfield code="2">20</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">HC106.3</subfield>
+            <subfield code="b">.C714 v.54</subfield>
+        </datafield>
+        <datafield tag="245" ind1="0" ind2="0">
+            <subfield code="a">Fifty years of economic measurement :</subfield>
+            <subfield code="b">the jubilee of the Conference on Research in Income and Wealth
+                /</subfield>
+            <subfield code="c">edited by Ernst R. Berndt and Jack E. Triplett.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Chicago :</subfield>
+            <subfield code="b">University of Chicago Press,</subfield>
+            <subfield code="c">1990.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">ix, 454 p. :</subfield>
+            <subfield code="b">ill. ;</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">Conference on Research in Income and Wealth.</subfield>
+            <subfield code="t">Studies in income and wealth ;</subfield>
+            <subfield code="v">v. 54</subfield>
+            <subfield code="5">FPeU</subfield>
+        </datafield>
+        <datafield tag="440" ind1=" " ind2="0">
+            <subfield code="a">Studies in income and wealth ;</subfield>
+            <subfield code="v">v. 54</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Studies in income and wealth ;</subfield>
+            <subfield code="v">v. 54</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Contains part of the papers and discussion presented at the 50th
+                Anniversary Conference of the Conference on Research in Income and Wealth held May
+                12-14, 1988, in Washington, D.C.</subfield>
+            <subfield code="5">FU</subfield>
+            <subfield code="5">FSsNC</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FPeU</subfield>
+            <subfield code="5">FTS</subfield>
+            <subfield code="5">FOFT</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references and indexes.</subfield>
+        </datafield>
+        <datafield tag="610" ind1="2" ind2="0">
+            <subfield code="a">Conference on Research in Income and Wealth</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Wealth</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Saving and investment</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Income</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Berndt, Ernst R.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Triplett, Jack E.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Conference on Research in Income and Wealth.</subfield>
+            <subfield code="b">50th Anniversary Conference</subfield>
+            <subfield code="d">(1988 :</subfield>
+            <subfield code="c">Washington, D.C.)</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">024795463</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>01123cam 2200289 i 4500</leader>
+        <controlfield tag="001">990262144100306576</controlfield>
+        <controlfield tag="008">760122s1976 nyua b 100|0 engm </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 76001944</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">030638227X (v. 7) :</subfield>
+            <subfield code="c">$35.00</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)026214410UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)02020554</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910622813606561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990262144100306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">IAV</subfield>
+            <subfield code="d">FHM</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">RM260.2</subfield>
+            <subfield code="b">.I57 1975, v.7-8</subfield>
+            <subfield code="a">RC271.C5</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2=" ">
+            <subfield code="a">RM260.2</subfield>
+            <subfield code="b">.I57 1975 v.7-8</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">615/.58 s</subfield>
+            <subfield code="a">616.9/94/061</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">RM260.2</subfield>
+            <subfield code="b">.I57 1975, v.7-8</subfield>
+        </datafield>
+        <datafield tag="096" ind1=" " ind2=" ">
+            <subfield code="a">QV 250 C517 1976 v.7-8</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">International Congress of Chemotherapy</subfield>
+            <subfield code="n">(9th :</subfield>
+            <subfield code="d">1975 :</subfield>
+            <subfield code="c">London)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Cancer chemotherapy I-II :</subfield>
+            <subfield code="b">[proceedings of the ninth International Congress of Chemotherapy held
+                in London, July, 1975] /</subfield>
+            <subfield code="c">edited by K. Hellmann and T. A. Connors.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">New York :</subfield>
+            <subfield code="b">Plenum Press,</subfield>
+            <subfield code="c">c1976.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">2 v. :</subfield>
+            <subfield code="b">ill. ;</subfield>
+            <subfield code="c">26 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">International Congress of Chemotherapy</subfield>
+            <subfield code="n">(9th :</subfield>
+            <subfield code="d">1975 :</subfield>
+            <subfield code="c">London)</subfield>
+            <subfield code="t">Chemotherapy ;</subfield>
+            <subfield code="v">v. 7-8</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Its Chemotherapy ;</subfield>
+            <subfield code="v">v. 7-8</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Cancer</subfield>
+            <subfield code="x">Chemotherapy</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Hellmann, K.</subfield>
+            <subfield code="q">(Kurt)</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Connors, T. A.,</subfield>
+            <subfield code="d">1934-</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Connors, Thomas A.,</subfield>
+            <subfield code="d">1934-</subfield>
+        </datafield>
+        <datafield tag="926" ind1=" " ind2=" ">
+            <subfield code="a">HATHI-IC</subfield>
+            <subfield code="5">KEEPUF</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">026214410</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>01157nam 2200313 i 4500</leader>
+        <controlfield tag="001">990263752670306576</controlfield>
+        <controlfield tag="008">780726s1978 paua b 101|0 engm </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a">78008816</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">0891680160 :</subfield>
+            <subfield code="c">$18.95</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)026375267UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)04136511</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910164251106561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990263752670306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DLC</subfield>
+            <subfield code="d">FUG</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">QD139.P6</subfield>
+            <subfield code="b">E27 1977</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">Eastern Analytical Symposium,</subfield>
+            <subfield code="n">17th,</subfield>
+            <subfield code="c">New York,</subfield>
+            <subfield code="d">1977.</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Thermal methods in polymer analysis /</subfield>
+            <subfield code="c">S. W. Shalaby, editor.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Philadelphia :</subfield>
+            <subfield code="b">Franklin Institute Press,</subfield>
+            <subfield code="c">c1978.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">vii, 204 p. :</subfield>
+            <subfield code="b">ill. ;</subfield>
+            <subfield code="c">23 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">Eastern Analytical Symposium</subfield>
+            <subfield code="n">(17th :</subfield>
+            <subfield code="d">1977 :</subfield>
+            <subfield code="c">New York)</subfield>
+            <subfield code="t">1977 Eastern Analytical Symposium series</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Eastern Analytical Symposium series ; 1977</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="1" ind2=" ">
+            <subfield code="a">1977 Eastern Analytical Symposium series</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">REPL*</subfield>
+            <subfield code="5">FU</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Includes bibliographical references and index.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Polymers and polymerization</subfield>
+            <subfield code="x">Analysis</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Thermal analysis</subfield>
+            <subfield code="v">Congresses.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Polymers</subfield>
+            <subfield code="x">Analysis</subfield>
+            <subfield code="x">Congresses.</subfield>
+        </datafield>
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Shalaby, Shalaby W.</subfield>
+        </datafield>
+        <datafield tag="811" ind1="2" ind2=" ">
+            <subfield code="a">Eastern Analytical Symposium,</subfield>
+            <subfield code="b">17th,</subfield>
+            <subfield code="c">New York,</subfield>
+            <subfield code="d">1977.</subfield>
+            <subfield code="t">1977 Eastern Analytical Symposium series.</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">026375267</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>00000nam 22003135 4500</leader>
+        <controlfield tag="001">990265272280306576</controlfield>
+        <controlfield tag="008">770411s1967 nyu b i100|0 eng </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a"> 67005107</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(aleph)026527228UXU01</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)02880529</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(EXLNZ-01FALSC_NETWORK)9910954700506561</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(01FALSC_FSU)990265272280306576</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">AZU</subfield>
+        </datafield>
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">JX1977.A2</subfield>
+            <subfield code="b">ST/CES/8</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">HB881</subfield>
+            <subfield code="b">.U5 1965</subfield>
+        </datafield>
+        <datafield tag="099" ind1=" " ind2=" ">
+            <subfield code="a">UNST CES 8</subfield>
+        </datafield>
+        <datafield tag="111" ind1="2" ind2=" ">
+            <subfield code="a">United Nations Regional Seminar on the Organization and Conduct of
+                Population Censuses</subfield>
+            <subfield code="d">(1965 :</subfield>
+            <subfield code="c">Ankara and Istanbul)</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Organization and conduct of population censuses;</subfield>
+            <subfield code="b">report of the United Nations European regional seminar.</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">New York,</subfield>
+            <subfield code="b">United Nations,</subfield>
+            <subfield code="c">1967.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">234, 4, 3 p. ;</subfield>
+            <subfield code="c">28 cm.</subfield>
+        </datafield>
+        <datafield tag="411" ind1="2" ind2="0">
+            <subfield code="a">Conference of European Statisticians.</subfield>
+            <subfield code="t">Statistical standards and studies ,</subfield>
+            <subfield code="v">no. 8</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">&lt;United Nations. Document&gt; ;</subfield>
+            <subfield code="v">ST/CES/8.</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Statistical standards and studies ;</subfield>
+            <subfield code="v">no. 8</subfield>
+            <subfield code="5">FTaSU</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">"United Nations publication. Sales no.: 67.II.E/Mim.13."</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">At head of title: United Nations Statistical Commission and Economic
+                Commission for Europe.</subfield>
+            <subfield code="5">FTaSU</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">[United Nations. Document] ST/CES/8.</subfield>
+            <subfield code="5">FTS</subfield>
+        </datafield>
+        <datafield tag="504" ind1=" " ind2=" ">
+            <subfield code="a">Bibliographical footnotes.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Census.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">United Nations.</subfield>
+            <subfield code="b">Statistical Commission.</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">United Nations.</subfield>
+            <subfield code="b">Economic Commission for Europe</subfield>
+        </datafield>
+        <datafield tag="998" ind1=" " ind2=" ">
+            <subfield code="a">026527228</subfield>
+            <subfield code="9">LOCAL</subfield>
+        </datafield>
+    </record>
+</collection>
