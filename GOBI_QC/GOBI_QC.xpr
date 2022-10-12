@@ -1,13 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project>
+<project version="22.1">
     <meta>
         <filters directoryPatterns="" filePatterns="\QGOBI_QC.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized xml:space="preserve">
+            <serialized version="22.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../Desktop/GOBI_QC/2022/09_2022/ybpElectronicBookOrders_09202022-09302022.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>gobi er qc</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../Desktop/GOBI_QC/2022/09_2022/ybpElectronicBookOrders_09_01_2022-09_17_2022.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>gobi er qc</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../Desktop/GOBI_QC/2022/08_2022/ybpElectronicBookOrders_08_25_2022%20-%2008_30_2022.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>gobi er qc</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../Desktop/GOBI_QC/2022/01_2022/ybpElectronicBookOrders_01192022%20-%2001292022.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>gobi er qc</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>../../../GOBI_QC_local/XML/Completed/GOBI_Update_Matched_20211119_test.xml</String>
@@ -96,7 +176,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/Users/annieglerum/Documents/GitHub/discovery_data/GOBI_QC/XSL/gobi_electronic_qc.xsl</String>
+                                    <String>${pdu}/XSL/gobi_electronic_qc_revised.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>

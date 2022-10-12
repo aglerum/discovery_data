@@ -121,6 +121,9 @@
             <subfield code="b">London</subfield>
             <subfield code="n">Available via World Wide Web.</subfield>
         </datafield>
+        <datafield tag="540" ind1=" " ind2=" ">
+            <subfield code="a">HERE IS A 540!!!.</subfield>
+        </datafield>
         <datafield tag="588" ind1=" " ind2=" ">
             <subfield code="a">Description based on print version record.</subfield>
         </datafield>
@@ -272,6 +275,9 @@
             <subfield code="a">Electronic reproduction.</subfield>
             <subfield code="b">London</subfield>
             <subfield code="n">Available via World Wide Web.</subfield>
+        </datafield>
+        <datafield tag="540" ind1=" " ind2=" ">
+            <subfield code="a">HERE IS A 540!!!.</subfield>
         </datafield>
         <datafield tag="588" ind1=" " ind2=" ">
             <subfield code="a">Description based on print version record.</subfield>
@@ -442,6 +448,9 @@
                 as a Culinary Ambassador / Mimi Reisel Gladstein -- Reading the taco shop poets in
                 the crossroads of Chicano postnationalism / Paul Allatson.</subfield>
         </datafield>
+        <datafield tag="540" ind1=" " ind2=" ">
+            <subfield code="a">HERE IS A 540!!!.</subfield>
+        </datafield>
         <datafield tag="533" ind1=" " ind2=" ">
             <subfield code="a">Electronic reproduction.</subfield>
             <subfield code="b">Ann Arbor, MI</subfield>
@@ -598,6 +607,9 @@
                 European powers -- Rum all over the world : Australia, India, Asia, South America
                 and beyond -- Rum falls from grace and rises again : temperance, cocktails, wars and
                 religion -- Rum today and tomorrow -- Recipes.</subfield>
+        </datafield>
+        <datafield tag="540" ind1=" " ind2=" ">
+            <subfield code="a">HERE IS A 540!!!.</subfield>
         </datafield>
         <datafield tag="533" ind1=" " ind2=" ">
             <subfield code="a">Electronic reproduction.</subfield>
