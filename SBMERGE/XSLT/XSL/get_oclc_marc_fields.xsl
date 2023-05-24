@@ -27,9 +27,9 @@
                 </xsl:for-each>
             </xsl:variable>
 
-            <!-- 008 field position 23 -->
+            <!-- 008 form  -->
             <xsl:variable name="field_008">
-                <!--<xsl:value-of select="$LDR"/>-->
+                <!-- Checks the LDR to see what position the form is in -->
                 <xsl:choose>
                     <xsl:when test="$LDR = 'e'">
                         <xsl:value-of select="substring(controlfield[@tag = '008'], 30, 1)"/>
