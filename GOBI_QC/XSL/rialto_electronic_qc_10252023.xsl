@@ -8,10 +8,10 @@
 
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Last updated: </xd:b>December 4, 2021</xd:p>
-            <xd:p><xd:b>Author: </xd:b>Annie Glerum</xd:p>
+            <xd:p><xd:b>Last updated: </xd:b>October 25, 2023</xd:p>
+            <xd:p><xd:b>Authors: </xd:b>Annie Glerum, Alex Chisum</xd:p>
             <xd:p><xd:b>Organization: </xd:b>Florida State University Libraries</xd:p>
-            <xd:p><xd:b>Title: </xd:b>Quality check report for vendor-supplied electronic MARC records: TSV
+            <xd:p><xd:b>Title: </xd:b>Quality check report for vendor-supplied MARC records: TSV
                 Version</xd:p>
         </xd:desc>
     </xd:doc>
@@ -87,7 +87,6 @@
                 <xsl:value-of select="datafield[@tag = '490']/@ind1"/>
             </xsl:variable>
 
-            <!-- ***Recieved full or Provisional Plus*** -->
             <!-- Full level records -->
             <xsl:choose>
                 <xsl:when
@@ -112,77 +111,38 @@
                         <xsl:value-of select="concat('Encoding level: ', $encoding)"/>
                     </xsl:variable>
                     <xsl:value-of
-                        select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"/>
-
-                </xsl:when>
-                <xsl:otherwise/>
-            </xsl:choose>
-
-            <!-- YBP Enhanced -->
-            <xsl:variable name="sourceA">
-                <xsl:value-of select="datafield[@tag = '040']/subfield[@code = 'a']"/>
-            </xsl:variable>
-
-            <xsl:variable name="sourceD">
-                <xsl:value-of select="datafield[@tag = '040']/subfield[@code = 'd']"/>
-            </xsl:variable>
-
-            <xsl:choose>
-                <xsl:when
-                    test="
-                        contains($sourceA, 'NhCcYBP') or contains($sourceD, 'NhCcYBP')
-                        ">
-                    <!-- Batch is global variable -->
-                    <xsl:variable name="flag">
-                        <xsl:value-of select="'CHECK-NhCcYBP'"/>
-                    </xsl:variable>
-                    <xsl:variable name="this_oclc">
-                        <xsl:value-of select="$oclc"/>
-                    </xsl:variable>
-                    <xsl:variable name="this_title">
-                        <xsl:value-of select="datafield[@tag = '245']/*"/>
-                    </xsl:variable>
-                    <xsl:variable name="details">
-                        <xsl:value-of
-                            select="normalize-space(concat('Cataloging Source. Subfield A: ', $sourceA, ' SubfieldD: ', $sourceD))"
-                        />
-                    </xsl:variable>
-
-                    <xsl:value-of
-                        select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"/>
-
-                </xsl:when>
-                <xsl:otherwise/>
-            </xsl:choose>
-
-            <!-- Provisional Plus -->
-            <xsl:variable name="control-001" select="controlfield[@tag = '001']"/>
-            <xsl:choose>
-                <xsl:when
-                    test="
-                        contains($control-001, 'ybpprov')
-                        ">
-                    <!-- Batch is global variable -->
-                    <xsl:variable name="flag">
-                        <xsl:value-of select="'CHECK-ybpprov'"/>
-                    </xsl:variable>
-                    <xsl:variable name="this_oclc">
-                        <xsl:value-of select="$oclc"/>
-                    </xsl:variable>
-                    <xsl:variable name="this_title">
-                        <xsl:value-of select="datafield[@tag = '245']/*"/>
-                    </xsl:variable>
-                    <xsl:variable name="details">
-                        <xsl:value-of select="concat('Control Field 001: ', $control-001)"/>
-                    </xsl:variable>
-
-                    <xsl:value-of
                         select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
                     />
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
-
+            
+            <!-- Checks for fields with $5 -->
+            <xsl:for-each
+                select="datafield[subfield[@code = '5']]">
+                <xsl:variable name="tag">
+                    <xsl:value-of select="@tag"/>
+                </xsl:variable>
+                <!-- Batch is global variable -->
+                <xsl:variable name="flag">
+                    <xsl:value-of select="'Has_$5'"/>
+                </xsl:variable>
+                <xsl:variable name="this_oclc">
+                    <xsl:value-of select="$oclc"/>
+                </xsl:variable>
+                <xsl:variable name="this_title">
+                    <xsl:value-of select="datafield[@tag = '245']/*"/>
+                </xsl:variable>
+                <xsl:variable name="details">
+                    <xsl:for-each select=".">
+                        <xsl:value-of select="normalize-space(concat('Field with $5 :', $tag))"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:value-of
+                    select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                />
+            </xsl:for-each>
+            
             <!-- CallNo: Records with no call numbers or have call number without Cutter number -->
             <xsl:for-each select="datafield[@tag = '050']">
                 <xsl:variable name="call050">
@@ -303,7 +263,7 @@
             <!-- ISBN for e-books: Flags records with 020 fields with $q that might be for physical books -->
             <xsl:for-each
                 select="
-                datafield[@tag = '020'][subfield[@code = 'a']/subfield[@code = 'q'][
+                    datafield[@tag = '020'][subfield[@code = 'a']/subfield[@code = 'q'][
                     contains(upper-case(.), 'PAPER')
                     or contains(upper-case(.), 'HARD')
                     or contains(upper-case(.), 'PB')
@@ -336,6 +296,38 @@
                 />
             </xsl:for-each>
 
+            <!-- Checks for incorrect 100 indicators -->
+            <xsl:for-each select="datafield[@tag = '100']">
+                <xsl:variable name="authorInd1" select="@ind1"/>
+                <xsl:variable name="authorInd2" select="@ind2"/>
+                <!-- Check 100 indicators -->
+                <xsl:choose>
+                    <xsl:when
+                        test="
+                        not(($authorInd1 = '0' or $authorInd1 = '1' or $authorInd1 = '3') or $authorInd2 = '')">
+                        <!-- Batch is global variable -->
+                        <xsl:variable name="flag">
+                            <xsl:value-of select="'CHECK-100-INDICATOR'"/>
+                        </xsl:variable>
+                        <xsl:variable name="this_oclc">
+                            <xsl:value-of select="$oclc"/>
+                        </xsl:variable>
+                        <xsl:variable name="this_title">
+                            <xsl:value-of select="datafield[@tag = '245']/*"/>
+                        </xsl:variable>
+                        <xsl:variable name="details">
+                            <xsl:value-of
+                                select="concat('Ind1: ', $authorInd1, ', Ind2: ', $authorInd2)"/>
+                        </xsl:variable>
+                        <xsl:value-of
+                            select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                        />
+                    </xsl:when>
+                    <xsl:otherwise/>
+                </xsl:choose>
+            </xsl:for-each>
+            
+
             <!-- Geo: Records with 651 or 6xx $z but no 043 -->
             <xsl:choose>
                 <xsl:when
@@ -367,38 +359,35 @@
                 <xsl:otherwise/>
             </xsl:choose>
 
-            <!-- Checks for incorrect 245 indicators -->
-            <xsl:for-each select="datafield[@tag = '245'][@ind = '1']">
-                <xsl:variable name="titleInd1" select="@ind1"/>
-                <!-- Check 245 ind1 -->
-                <xsl:choose>
-                    <xsl:when
-                        test="
-                            ($titleInd1 eq '0' and datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130'])
-                            or ($titleInd1 eq '1' and not(datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130']))">
-                        <!-- Batch is global variable -->
-                        <xsl:variable name="flag">
-                            <xsl:value-of select="'EDIT-245Ind1'"/>
-                        </xsl:variable>
-                        <xsl:variable name="this_oclc">
-                            <xsl:value-of select="$oclc"/>
-                        </xsl:variable>
-                        <xsl:variable name="this_title">
-                            <xsl:value-of select="datafield[@tag = '245']/*"/>
-                        </xsl:variable>
-                        <xsl:variable name="details">
-                            <xsl:value-of select="concat('245 Ind1: ', $titleInd1)"/>
-                        </xsl:variable>
-                        <xsl:value-of
-                            select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+            <!-- Check 245 ind1 -->
+            <xsl:choose>
+                <xsl:when
+                    test="
+                    ((datafield[@tag = '245'][@ind1 = '0'] and (datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '130']))
+                    or (datafield[@tag = '245'][@ind1 = '1'] and not(datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '130'])))">
+                    <!-- Batch is global variable -->
+                    <xsl:variable name="flag">
+                        <xsl:value-of select="'EDIT-245Ind1'"/>
+                    </xsl:variable>
+                    <xsl:variable name="this_oclc">
+                        <xsl:value-of select="$oclc"/>
+                    </xsl:variable>
+                    <xsl:variable name="this_title">
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
+                    </xsl:variable>
+                    <xsl:variable name="details">
+                        <xsl:value-of select="concat('245 Ind1: ', datafield[@tag = '245']/[@ind1])"
                         />
-                    </xsl:when>
-                    <xsl:otherwise/>
-                </xsl:choose>
-            </xsl:for-each>
-
+                    </xsl:variable>
+                    <xsl:value-of
+                        select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                    />
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
+            
             <!-- Check 245 ind2 for English articles -->
-            <xsl:for-each select="datafield[@tag = '245'][@ind = '2']">
+            <xsl:for-each select="datafield[@tag = '245']">
                 <xsl:variable name="titleA" select="subfield[@code = 'a']"/>
                 <xsl:variable name="titleInd2" select="@ind2"/>
                 <xsl:choose>
@@ -425,27 +414,35 @@
                     <xsl:otherwise/>
                 </xsl:choose>
             </xsl:for-each>
-
+            
             <!-- Check 264 for missing ©  -->
-            <xsl:for-each
-                select="datafield[@tag = '264'][@ind = '4'][not(starts-with(., '©') or starts-with(., 'copyright'))]">
-                <xsl:variable name="flag">
-                    <xsl:value-of select="'EDIT-264-missing-©'"/>
-                </xsl:variable>
-                <xsl:variable name="this_oclc">
-                    <xsl:value-of select="$oclc"/>
-                </xsl:variable>
-                <xsl:variable name="this_title">
-                    <xsl:value-of select="datafield[@tag = '245']/*"/>
-                </xsl:variable>
-                <xsl:variable name="details">
-                    <xsl:value-of select="concat('264_4: ', subfield[@code = 'a'])"/>
-                </xsl:variable>
-                <xsl:value-of
-                    select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
-                />
+            <xsl:for-each select="datafield[@tag = '264'][@ind2 = '4']">
+                <xsl:variable name="copyright" select="subfield[@code = 'c']"/>
+                <xsl:choose>
+                    <xsl:when
+                        test="(not(starts-with($copyright, '©')) or starts-with($copyright, 'copyright'))">
+                        
+                        <!-- Batch is global variable -->
+                        <xsl:variable name="flag">
+                            <xsl:value-of select="'EDIT-264-missing-©'"/>
+                        </xsl:variable>
+                        <xsl:variable name="this_oclc">
+                            <xsl:value-of select="$oclc"/>
+                        </xsl:variable>
+                        <xsl:variable name="this_title">
+                            <xsl:value-of select="datafield[@tag = '245']/*"/>
+                        </xsl:variable>
+                        <xsl:variable name="details">
+                            <xsl:value-of select="$copyright"/>
+                        </xsl:variable>
+                        <xsl:value-of
+                            select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                        />
+                    </xsl:when>
+                    <xsl:otherwise/>
+                </xsl:choose>
             </xsl:for-each>
-
+            
             <!-- SeriesObsolete: Generates list of records with 440 fields to change to 490 ind1=1/830 pairs-->
             <xsl:for-each select="datafield[@tag = '440']">
                 <!-- Batch is global variable -->
@@ -563,6 +560,37 @@
                     <xsl:otherwise/>
                 </xsl:choose>
             </xsl:for-each>
+
+            <!-- URL: Checks for URL  coding-->
+            
+            <xsl:for-each select="datafield[@tag = '856']">
+                <xsl:choose>
+                    <xsl:when
+                        test="
+                        not(@ind1 = ' ' and @ind2 = ' ')
+                        ">
+                        <!-- Batch is global variable -->
+                        <xsl:variable name="flag">
+                            <xsl:value-of select="'CHECK-URL'"/>
+                        </xsl:variable>
+                        <xsl:variable name="this_oclc">
+                            <xsl:value-of select="$oclc"/>
+                        </xsl:variable>
+                        <xsl:variable name="this_title">
+                            <xsl:value-of select="datafield[@tag = '245']/*"/>
+                        </xsl:variable>
+                        <xsl:variable name="details">
+                            <xsl:value-of select="subfield[@code = 'u']"/>
+                        </xsl:variable>
+                        <xsl:value-of
+                            select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                        />
+                    </xsl:when>
+                    <xsl:otherwise/>
+                </xsl:choose>
+            </xsl:for-each>
+            
+            
 
             <!-- Sets-Title: Generates checklist of possible set records based on title -->
             <xsl:if test="not(datafield[@tag = '993'])">
