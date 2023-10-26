@@ -123,6 +123,9 @@
                 <xsl:variable name="tag">
                     <xsl:value-of select="@tag"/>
                 </xsl:variable>
+                <xsl:choose>
+                    <xsl:when
+                        test="not(subfield[@code = '9'] = 'LOCAL')">
                 <!-- Batch is global variable -->
                 <xsl:variable name="flag">
                     <xsl:value-of select="'Has_$5'"/>
@@ -141,6 +144,8 @@
                 <xsl:value-of
                     select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
                 />
+                    </xsl:when>
+                </xsl:choose>
             </xsl:for-each>
             
             <!-- CallNo: Records with no call numbers or have call number without Cutter number -->

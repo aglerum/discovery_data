@@ -249,33 +249,37 @@
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
-           
+
             <!-- Checks for fields with $5 -->
-            <xsl:for-each
-                select="datafield[subfield[@code = '5']]">
+            <xsl:for-each select="datafield[subfield[@code = '5']]">
                 <xsl:variable name="tag">
                     <xsl:value-of select="@tag"/>
                 </xsl:variable>
-                <!-- Batch is global variable -->
-                <xsl:variable name="flag">
-                    <xsl:value-of select="'Has_$5'"/>
-                </xsl:variable>
-                <xsl:variable name="this_oclc">
-                    <xsl:value-of select="$oclc"/>
-                </xsl:variable>
-                <xsl:variable name="this_title">
-                    <xsl:value-of select="datafield[@tag = '245']/*"/>
-                </xsl:variable>
-                <xsl:variable name="details">
-                    <xsl:for-each select=".">
-                        <xsl:value-of select="normalize-space(concat('Field with $5 :', $tag))"/>
-                    </xsl:for-each>
-                </xsl:variable>
-                <xsl:value-of
-                    select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
-                />
+                <xsl:choose>
+                    <xsl:when test="not(subfield[@code = '9'] = 'LOCAL')">
+                        <!-- Batch is global variable -->
+                        <xsl:variable name="flag">
+                            <xsl:value-of select="'Has_$5'"/>
+                        </xsl:variable>
+                        <xsl:variable name="this_oclc">
+                            <xsl:value-of select="$oclc"/>
+                        </xsl:variable>
+                        <xsl:variable name="this_title">
+                            <xsl:value-of select="datafield[@tag = '245']/*"/>
+                        </xsl:variable>
+                        <xsl:variable name="details">
+                            <xsl:for-each select=".">
+                                <xsl:value-of
+                                    select="normalize-space(concat('Field with $5 :', $tag))"/>
+                            </xsl:for-each>
+                        </xsl:variable>
+                        <xsl:value-of
+                            select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                        />
+                    </xsl:when>
+                </xsl:choose>
             </xsl:for-each>
-            
+
             <!-- ***Checklists for possible errors -->
             <!-- ISBN for e-books: Flags records with 020 fields without $q that might be for ebooks -->
             <xsl:for-each
