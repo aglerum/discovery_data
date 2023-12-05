@@ -211,7 +211,37 @@
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
-
+            
+            <!-- Checks for non-English language cataloging -->
+            <xsl:variable name="catLang">
+                <xsl:value-of select="datafield[@tag = '040']/subfield[@code = 'b']"/>
+            </xsl:variable>
+            <xsl:choose>
+                <xsl:when
+                    test="
+                    ($catLang) ne 'eng'
+                    ">
+                    <!-- Batch is global variable -->
+                    <xsl:variable name="flag">
+                        <xsl:value-of select="'CHECK-Cataloging Language'"/>
+                    </xsl:variable>
+                    <xsl:variable name="this_oclc">
+                        <xsl:value-of select="$oclc"/>
+                    </xsl:variable>
+                    <xsl:variable name="this_title">
+                        <xsl:value-of select="datafield[@tag = '245']/*"/>
+                    </xsl:variable>
+                    <xsl:variable name="details">
+                        <xsl:value-of select="concat('040-b: ', $catLang)"
+                        />
+                    </xsl:variable>
+                    <xsl:value-of
+                        select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                    />
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
+            
             <!-- CallNo: Records with no call numbers or have call number without Cutter number -->
             <xsl:for-each select="datafield[@tag = '050']">
                 <xsl:variable name="call050">
@@ -415,8 +445,8 @@
             <xsl:choose>
                 <xsl:when
                     test="
-                    ((datafield[@tag = '245'][@ind1 = '0'] and (datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '130']))
-                    or (datafield[@tag = '245'][@ind1 = '1'] and not(datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '130'])))">
+                    ((datafield[@tag = '245'][@ind1 = '0'] and (datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130']))
+                    or (datafield[@tag = '245'][@ind1 = '1'] and not(datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130'])))">
                     <!-- Batch is global variable -->
                     <xsl:variable name="flag">
                         <xsl:value-of select="'EDIT-245Ind1'"/>
