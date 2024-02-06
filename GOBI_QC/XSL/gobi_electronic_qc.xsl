@@ -456,7 +456,7 @@
                         
                         <!-- Batch is global variable -->
                         <xsl:variable name="flag">
-                            <xsl:value-of select="'EDIT-264-missing-©'"/>
+                            <xsl:value-of select="'EDIT-264_4-missing-©'"/>
                         </xsl:variable>
                         <xsl:variable name="this_oclc">
                             <xsl:value-of select="$oclc"/>
