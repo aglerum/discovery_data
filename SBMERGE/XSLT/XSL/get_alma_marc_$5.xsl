@@ -41,10 +41,12 @@
             <xsl:variable name="tag_name" select="@tag"/>
             <xsl:variable name="indicators" select="concat(@ind1,@ind2)"/> 
             <xsl:variable name="values">
-                <xsl:variable name="code_name" select="@code"/>
-                <xsl:variable name="subfield_value" select="."/>
-                <xsl:value-of select="concat('$',$code_name,' ',$subfield_value,' ')"/>
-            </xsl:variable>
+                <xsl:for-each select="./*">
+                    <xsl:variable name="code_name" select="@code"/>
+                    <xsl:variable name="subfield_value" select="."/>
+                    <xsl:value-of select="concat('$',$code_name,' ',$subfield_value,' ')"/>
+                </xsl:for-each>
+            </xsl:variable> 
             
             <xsl:value-of
                 select="concat($IZ_MMS, $delimiter,$NZ_MMS,$delimiter,$oclc,$delimiter,$bib_level,$delimiter,$doc,$delimiter,$tag_name,$delimiter,$indicators,$delimiter,normalize-space(replace($values,$quotes,'')),'&#13;')"/>

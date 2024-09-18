@@ -10,6 +10,66 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>../../../../../Desktop/Project_Files/SBMERGE/FULL%20SET%20FROM%20JAY/REFINED%20Sets/FSU%20Only%20Set/sBMerge_fsuOnly_filtered$5F.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>get alma marc fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Desktop/Mismatched_Item_Types/Bib%20EResource%20Type%20with%20Item_FULLBIB.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Get Alma MARC Formatting Fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Desktop/DigiNole_Rebrand/Bibs_with_$5/DigiNole_Rebrand_BibsWith$5.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>get alma marc fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>../../../../../Desktop/Encoding%20Error%20Bibs/Encoding%20Errors.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -642,7 +702,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/XSL/TEST_get_alma_marc_fields.xsl</String>
+                                    <String>${pdu}/XSL/get_alma_marc_$5.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -663,7 +723,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/TSV/${cfn}_OCLC.tsv</String>
+                                    <String>${pd}/TSV/${cfn}_subfield5.tsv</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
