@@ -10,6 +10,146 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>../../../../../Desktop/Project_Files/SBMERGE/FULL%20SET%20FROM%20JAY/REFINED%20Sets/FSU%20Only%20Set/OVERLAY/RESULTS/QC_Bibs/Set2.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Get Alma MARC Formatting Fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Desktop/Project_Files/SBMERGE/FULL%20SET%20FROM%20JAY/REFINED%20Sets/FSU%20Only%20Set/OVERLAY/RESULTS/QC_Bibs/Set1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Get Alma MARC Formatting Fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Desktop/Project_Files/SBMERGE/FULL%20SET%20FROM%20JAY/REFINED%20Sets/FSU%20Only%20Set/OVERLAY/RESULTS/SBMerge_FSU_Only_Strozier_Med_Law_Music_COMBINED%20-%20filtered%20for%20subfield%205.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>get alma marc fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Desktop/Project_Files/SBMERGE/eResources%20OCLC%20Overlay/NEW%20SET/FSU%20e-resource,%20non-govdoc,%20LINKED%20to%20NZ,%20not%20suppressed%20-%20filte.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>get alma marc fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Desktop/Project_Files/SBMERGE/eResources%20OCLC%20Overlay/NEW%20SET/FSU%20e-resource%20non%20govdoc%20IZ%20only%20-%20filtered%20for%20$5.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>get alma marc fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Desktop/Project_Files/SBMERGE/FULL%20SET%20FROM%20JAY/REFINED%20Sets/Set1/sbmerge_export.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>get alma marc fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Desktop/Project_Files/SBMERGE/FULL%20SET%20FROM%20JAY/REFINED%20Sets/FSU%20Only%20Set/sBMerge_fsuOnly_filtered$5F_TRUEST.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>get alma marc fields</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>../../../../../Desktop/Project_Files/SBMERGE/FULL%20SET%20FROM%20JAY/REFINED%20Sets/FSU%20Only%20Set/sBMerge_fsuOnly_filtered$5F.xml</String>
                                 </field>
                                 <field name="scenarioIds">

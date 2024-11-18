@@ -71,6 +71,7 @@
                 />
             </xsl:variable>
 
+
             <!-- Extent Variable -->
             <xsl:variable name="extent">
                 <xsl:value-of select="datafield[@tag = '300']"/>
@@ -178,8 +179,8 @@
             <xsl:choose>
                 <xsl:when
                     test="
-                    ($catLang) ne 'eng'
-                    ">
+                        ($catLang) ne 'eng'
+                        ">
                     <!-- Batch is global variable -->
                     <xsl:variable name="flag">
                         <xsl:value-of select="'CHECK-Cataloging Language'"/>
@@ -191,8 +192,7 @@
                         <xsl:value-of select="datafield[@tag = '245']/*"/>
                     </xsl:variable>
                     <xsl:variable name="details">
-                        <xsl:value-of select="concat('040-b: ', $catLang)"
-                        />
+                        <xsl:value-of select="concat('040-b: ', $catLang)"/>
                     </xsl:variable>
                     <xsl:value-of
                         select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
@@ -200,7 +200,7 @@
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
-            
+
             <!-- CallNo: Records with no call numbers or have call number without Cutter number -->
             <xsl:for-each select="datafield[@tag = '050']">
                 <xsl:variable name="call050">
@@ -279,6 +279,120 @@
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
+
+            <!-- CHECKS CALL NUMBER AGAINST LOCATION -->
+            <xsl:for-each select="datafield[@tag = '852']">
+                <xsl:variable name="callnumprefix1">
+                    <xsl:value-of select="substring(subfield[@code = 'h'], 0, 2)"/>
+                </xsl:variable>
+                <xsl:variable name="callnumprefix2">
+                    <xsl:value-of select="substring(subfield[@code = 'h'], 0, 3)"/>
+                </xsl:variable>
+                <xsl:variable name="library">
+                    <xsl:value-of select="subfield[@code = 'b']"/>
+                </xsl:variable>
+                <xsl:choose>
+                    <xsl:when test="
+                            $library = 'FSULC'">
+                        <xsl:choose>
+                            <xsl:when
+                                test="
+                                    $callnumprefix2 = 'BF'
+                                    or $callnumprefix2 = 'GC'
+                                    or $callnumprefix2 = 'GD'
+                                    or $callnumprefix2 = 'GE'
+                                    or $callnumprefix1 = 'L'
+                                    or $callnumprefix1 = 'Q'
+                                    or $callnumprefix1 = 'R'
+                                    or $callnumprefix1 = 'S'
+                                    or $callnumprefix2 = 'TA'
+                                    or $callnumprefix2 = 'TC'
+                                    or $callnumprefix2 = 'TD'
+                                    or $callnumprefix2 = 'TE'
+                                    or $callnumprefix2 = 'TF'
+                                    or $callnumprefix2 = 'TG'
+                                    or $callnumprefix2 = 'TH'
+                                    or $callnumprefix2 = 'TJ'
+                                    or $callnumprefix2 = 'TK'
+                                    or $callnumprefix2 = 'TL'
+                                    or $callnumprefix2 = 'TN'
+                                    or $callnumprefix2 = 'TP'
+                                    or $callnumprefix2 = 'TS'
+                                    or $callnumprefix2 = 'TX'
+                                    ">
+
+                                <!-- Batch is global variable -->
+                                <xsl:variable name="flag">
+                                    <xsl:value-of select="'LOCATION FLAG'"/>
+                                </xsl:variable>
+                                <xsl:variable name="this_oclc">
+                                    <xsl:value-of select="$oclc"/>
+                                </xsl:variable>
+                                <xsl:variable name="this_title">
+                                    <xsl:value-of select="datafield[@tag = '245']/*"/>
+                                </xsl:variable>
+                                <xsl:variable name="details">
+                                    <xsl:value-of
+                                        select="concat('Check location: ', 'call num starts with ', $callnumprefix2, ' ', $library)"
+                                    />
+                                </xsl:variable>
+                                <xsl:value-of
+                                    select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                                />
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:when>
+                    <xsl:when test="$library = 'FSUSC'">
+                        <xsl:choose>
+                            <xsl:when
+                                test="
+                                    not($callnumprefix2 = 'BF'
+                                    or $callnumprefix2 = 'GC'
+                                    or $callnumprefix2 = 'GD'
+                                    or $callnumprefix2 = 'GE'
+                                    or $callnumprefix1 = 'L'
+                                    or $callnumprefix1 = 'Q'
+                                    or $callnumprefix1 = 'R'
+                                    or $callnumprefix1 = 'S'
+                                    or $callnumprefix2 = 'TA'
+                                    or $callnumprefix2 = 'TC'
+                                    or $callnumprefix2 = 'TD'
+                                    or $callnumprefix2 = 'TE'
+                                    or $callnumprefix2 = 'TF'
+                                    or $callnumprefix2 = 'TG'
+                                    or $callnumprefix2 = 'TH'
+                                    or $callnumprefix2 = 'TJ'
+                                    or $callnumprefix2 = 'TK'
+                                    or $callnumprefix2 = 'TL'
+                                    or $callnumprefix2 = 'TN'
+                                    or $callnumprefix2 = 'TP'
+                                    or $callnumprefix2 = 'TS'
+                                    or $callnumprefix2 = 'TX')
+                                    ">
+                                <!-- Batch is global variable -->
+                                <xsl:variable name="flag">
+                                    <xsl:value-of select="'LOCATION FLAG'"/>
+                                </xsl:variable>
+                                <xsl:variable name="this_oclc">
+                                    <xsl:value-of select="$oclc"/>
+                                </xsl:variable>
+                                <xsl:variable name="this_title">
+                                    <xsl:value-of select="datafield[@tag = '245']/*"/>
+                                </xsl:variable>
+                                <xsl:variable name="details">
+                                    <xsl:value-of
+                                        select="concat('Check location: ', 'call num starts with ', $callnumprefix2, ' ', $library)"
+                                    />
+                                </xsl:variable>
+                                <xsl:value-of
+                                    select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                                />
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:for-each>
+
 
             <!-- Checks for fields with $5 -->
             <xsl:for-each select="datafield[subfield[@code = '5']]">
@@ -435,8 +549,8 @@
             <xsl:choose>
                 <xsl:when
                     test="
-                    ((datafield[@tag = '245'][@ind1 = '0'] and (datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130']))
-                    or (datafield[@tag = '245'][@ind1 = '1'] and not(datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130'])))">
+                        ((datafield[@tag = '245'][@ind1 = '0'] and (datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130']))
+                        or (datafield[@tag = '245'][@ind1 = '1'] and not(datafield[@tag = '100'] or datafield[@tag = '110'] or datafield[@tag = '111'] or datafield[@tag = '130'])))">
                     <!-- Batch is global variable -->
                     <xsl:variable name="flag">
                         <xsl:value-of select="'EDIT-245Ind1'"/>

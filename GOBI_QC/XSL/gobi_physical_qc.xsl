@@ -903,6 +903,120 @@
                 </xsl:choose>
             </xsl:for-each>
             
+            <!-- CHECKS CALL NUMBER AGAINST LOCATION -->
+            <xsl:for-each select="datafield[@tag = '852']">
+                <xsl:variable name="callnumprefix1">
+                    <xsl:value-of select="substring(subfield[@code = 'h'], 0, 2)"/>
+                </xsl:variable>
+                <xsl:variable name="callnumprefix2">
+                    <xsl:value-of select="substring(subfield[@code = 'h'], 0, 3)"/>
+                </xsl:variable>
+                <xsl:variable name="library">
+                    <xsl:value-of select="subfield[@code = 'b']"/>
+                </xsl:variable>
+                <xsl:choose>
+                    <xsl:when test="
+                        $library = 'FSULC'">
+                        <xsl:choose>
+                            <xsl:when
+                                test="
+                                $callnumprefix2 = 'BF'
+                                or $callnumprefix2 = 'GC'
+                                or $callnumprefix2 = 'GD'
+                                or $callnumprefix2 = 'GE'
+                                or $callnumprefix1 = 'L'
+                                or $callnumprefix1 = 'Q'
+                                or $callnumprefix1 = 'R'
+                                or $callnumprefix1 = 'S'
+                                or $callnumprefix2 = 'TA'
+                                or $callnumprefix2 = 'TC'
+                                or $callnumprefix2 = 'TD'
+                                or $callnumprefix2 = 'TE'
+                                or $callnumprefix2 = 'TF'
+                                or $callnumprefix2 = 'TG'
+                                or $callnumprefix2 = 'TH'
+                                or $callnumprefix2 = 'TJ'
+                                or $callnumprefix2 = 'TK'
+                                or $callnumprefix2 = 'TL'
+                                or $callnumprefix2 = 'TN'
+                                or $callnumprefix2 = 'TP'
+                                or $callnumprefix2 = 'TS'
+                                or $callnumprefix2 = 'TX'
+                                ">
+                                
+                                <!-- Batch is global variable -->
+                                <xsl:variable name="flag">
+                                    <xsl:value-of select="'LOCATION FLAG'"/>
+                                </xsl:variable>
+                                <xsl:variable name="this_oclc">
+                                    <xsl:value-of select="$oclc"/>
+                                </xsl:variable>
+                                <xsl:variable name="this_title">
+                                    <xsl:value-of select="datafield[@tag = '245']/*"/>
+                                </xsl:variable>
+                                <xsl:variable name="details">
+                                    <xsl:value-of
+                                        select="concat('Check location: ', 'call num starts with ', $callnumprefix2, ' ', $library)"
+                                    />
+                                </xsl:variable>
+                                <xsl:value-of
+                                    select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                                />
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:when>
+                    <xsl:when test="$library = 'FSUSC'">
+                        <xsl:choose>
+                            <xsl:when
+                                test="
+                                not($callnumprefix2 = 'BF'
+                                or $callnumprefix2 = 'GC'
+                                or $callnumprefix2 = 'GD'
+                                or $callnumprefix2 = 'GE'
+                                or $callnumprefix1 = 'L'
+                                or $callnumprefix1 = 'Q'
+                                or $callnumprefix1 = 'R'
+                                or $callnumprefix1 = 'S'
+                                or $callnumprefix2 = 'TA'
+                                or $callnumprefix2 = 'TC'
+                                or $callnumprefix2 = 'TD'
+                                or $callnumprefix2 = 'TE'
+                                or $callnumprefix2 = 'TF'
+                                or $callnumprefix2 = 'TG'
+                                or $callnumprefix2 = 'TH'
+                                or $callnumprefix2 = 'TJ'
+                                or $callnumprefix2 = 'TK'
+                                or $callnumprefix2 = 'TL'
+                                or $callnumprefix2 = 'TN'
+                                or $callnumprefix2 = 'TP'
+                                or $callnumprefix2 = 'TS'
+                                or $callnumprefix2 = 'TX')
+                                ">
+                                <!-- Batch is global variable -->
+                                <xsl:variable name="flag">
+                                    <xsl:value-of select="'LOCATION FLAG'"/>
+                                </xsl:variable>
+                                <xsl:variable name="this_oclc">
+                                    <xsl:value-of select="$oclc"/>
+                                </xsl:variable>
+                                <xsl:variable name="this_title">
+                                    <xsl:value-of select="datafield[@tag = '245']/*"/>
+                                </xsl:variable>
+                                <xsl:variable name="details">
+                                    <xsl:value-of
+                                        select="concat('Check location: ', 'call num starts with ', $callnumprefix2, ' ', $library)"
+                                    />
+                                </xsl:variable>
+                                <xsl:value-of
+                                    select="concat($batch, $delimiter, $flag, $delimiter, $mms, $delimiter, $this_oclc, $delimiter, $details, $delimiter, normalize-space($this_title), '&#13;')"
+                                />
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:for-each>
+            
+            
             
             <!-- URL: Checks for known inaccessible URLS (example: http://www.ilibri.casalini.it/toc) -->
             <xsl:for-each
